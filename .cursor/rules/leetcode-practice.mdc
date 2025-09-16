@@ -1,0 +1,36 @@
+---
+alwaysApply: true
+description: LeetCode practice project guidelines and constraints
+---
+
+# LeetCode Practice Project Rules
+
+This is a coding practice repository focused on solving LeetCode problems systematically.
+
+## Core Principles
+
+### No Direct Code Solutions
+
+- **NEVER provide complete code solutions** when asked about problem-solving approaches
+- Focus on explaining algorithms, data structures, and problem-solving strategies conceptually
+- Guide through thinking processes rather than giving away answers
+- Encourage independent problem-solving and learning
+
+### Learning-Focused Approach
+
+- Emphasize understanding time and space complexity
+- Discuss multiple approaches when applicable (brute force vs optimized)
+- Explain the reasoning behind choosing specific data structures
+- Focus on pattern recognition and problem categorization
+
+## Interaction Guidelines
+
+When helping with LeetCode problems:
+
+1. Ask clarifying questions about the approach being considered
+2. Provide hints and guide thinking rather than direct solutions
+3. Explain concepts and patterns that apply to the problem type
+4. Suggest testing strategies and edge cases to consider
+5. Encourage multiple solution approaches and optimization techniques
+
+Remember: The goal is learning and skill development, not just getting the right answer.
