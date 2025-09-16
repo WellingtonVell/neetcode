@@ -60,3 +60,16 @@ containsDuplicate4([1, 2, 3, 4]);
 
 console.log("Test 3");
 containsDuplicate4([1, 1, 1, 3, 3, 4, 3, 2, 4, 2]);
+
+type ContainsDuplicate<T extends readonly unknown[]> = T extends readonly [
+  infer First,
+  ...infer Rest
+]
+  ? First extends Rest[number]
+    ? true
+    : ContainsDuplicate<Rest>
+  : false;
+
+type Test1 = ContainsDuplicate<[1, 2, 3, 1]>; // true
+type Test2 = ContainsDuplicate<[1, 2, 3, 4]>; // false
+type Test3 = ContainsDuplicate<[1, 1, 1, 3, 3, 4, 3, 2, 4, 2]>; // true

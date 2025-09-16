@@ -1,6 +1,7 @@
 ---
-alwaysApply: true
 description: LeetCode practice project guidelines and constraints
+globs: **/*
+alwaysApply: true
 ---
 
 # LeetCode Practice Project Rules
