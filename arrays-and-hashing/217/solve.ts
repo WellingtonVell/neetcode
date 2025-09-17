@@ -1,4 +1,4 @@
-// npx tsx arrays-and-hashing/contains-duplicate_easy-217/solve.ts
+// npx tsx arrays-and-hashing/217/solve.ts
 
 // Runtime: 20ms, Memory: 75.4MB
 function containsDuplicate(nums: number[]): boolean {

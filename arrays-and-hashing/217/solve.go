@@ -1,4 +1,4 @@
-// go run arrays-and-hashing/contains-duplicate_easy-217/solve.go
+// go run arrays-and-hashing/217/solve.go
 
 package main
 
