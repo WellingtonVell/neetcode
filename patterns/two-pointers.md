@@ -2,7 +2,6 @@
 tags: [pattern, two-pointers, data-structure, algorithms, array]
 aliases: [two-pointer, dual-pointer, opposite-ends]
 type: pattern-guide
-status: draft
 difficulty: Beginner
 time_complexity: "O(n)"
 space_complexity: "O(1)"
@@ -371,7 +370,7 @@ This pattern is fundamental for ordered data structures that require efficient t
 >
 > **Start with these problems in order:**
 >
-> 1. **[[problems/arrays-and-hashing/167/problem|167. Two Sum II]]** - Learn basic opposite-direction pattern
+> 1. **[[problems/167/problem|167. Two Sum II]]** - Learn basic opposite-direction pattern
 > 2. **Practice:** Implement `isPalindrome()` function for strings
 > 3. **Practice:** Create `removeDuplicates()` with same-direction pointers
 > 4. **Challenge:** Solve container with most water without nested loops
@@ -395,7 +394,7 @@ This pattern is fundamental for ordered data structures that require efficient t
 
 ## 🔗 Related LeetCode Problems
 
-- [[problems/arrays-and-hashing/1/problem|1. Two Sum]] - Hash table approach comparison
+- [[problems/1/problem|1. Two Sum]] - Hash table approach comparison
 - **167. Two Sum II** - Classic two-pointer sorted array problem
 - **15. 3Sum** - Extension to triplet finding
 - **11. Container With Most Water** - Geometric two-pointer application

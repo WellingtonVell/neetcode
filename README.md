@@ -12,11 +12,32 @@ tags: [homepage]
 
 > [!note]- These files need to be reviewed as they are AI generated
 >
-> ```dataview
-> LIST WITHOUT ID emoji + " " + link(file.link, title) + ": " + description
-> FROM "patterns"
-> SORT title ASC
-> ```
+> > [!success]- Beginner
+> >
+> > ```dataview
+> > LIST WITHOUT ID emoji + " " + link(file.link, title) + ": " + description
+> > FROM "patterns"
+> > WHERE difficulty = "Beginner"
+> > SORT title ASC
+> > ```
+>
+> > [!warning]- Intermediate
+> >
+> > ```dataview
+> > LIST WITHOUT ID emoji + " " + link(file.link, title) + ": " + description
+> > FROM "patterns"
+> > WHERE difficulty = "Intermediate"
+> > SORT title ASC
+> > ```
+>
+> > [!error]- Advanced
+> >
+> > ```dataview
+> > LIST WITHOUT ID emoji + " " + link(file.link, title) + ": " + description
+> > FROM "patterns"
+> > WHERE difficulty = "Advanced"
+> > SORT title ASC
+> > ```
 
 > [!note]- External Links
 >
@@ -25,6 +46,8 @@ tags: [homepage]
 > > [Patterns](https://www.educative.io/courses/grokking-coding-interview)
 >
 > > [Patterns](https://www.designgurus.io/course-play/grokking-the-coding-interview/doc/coding-patterns-a-cheat-sheet)
+
+---
 
 ## 🗂️ Problems Categories
 
@@ -36,8 +59,8 @@ tags: [homepage]
 >   difficulty as "Difficulty",
 >   tags as "Tags",
 >   status as "Status"
-> FROM "problems/arrays-and-hashing"
-> WHERE file.name != "README"
+> FROM "problems"
+> WHERE category = "Arrays & Hashing"
 > SORT leetcode_id ASC
 > ```
 
@@ -50,7 +73,6 @@ tags: [homepage]
 > ```dataview
 > TABLE WITHOUT ID
 >   "[[" + file.path + "|" + leetcode_id + ". " + title + "]]" as "ID",
->   difficulty as "Difficulty",
 >   tags as "Tags",
 >   status as "Status"
 > FROM "problems"
@@ -63,7 +85,6 @@ tags: [homepage]
 > ```dataview
 > TABLE WITHOUT ID
 >   "[[" + file.path + "|" + leetcode_id + ". " + title + "]]" as "ID",
->   difficulty as "Difficulty",
 >   tags as "Tags",
 >   status as "Status"
 > FROM "problems"
@@ -76,7 +97,6 @@ tags: [homepage]
 > ```dataview
 > TABLE WITHOUT ID
 >   "[[" + file.path + "|" + leetcode_id + ". " + title + "]]" as "ID",
->   difficulty as "Difficulty",
 >   tags as "Tags",
 >   status as "Status"
 > FROM "problems"

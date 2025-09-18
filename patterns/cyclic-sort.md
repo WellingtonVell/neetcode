@@ -2,7 +2,6 @@
 tags: [pattern, cyclic-sort, data-structure, algorithms, sorting]
 aliases: [cyclic-sorting, in-place-sorting, number-range-sorting]
 type: pattern-guide
-status: complete
 difficulty: Intermediate
 time_complexity: "O(n)"
 space_complexity: "O(1)"
@@ -411,7 +410,7 @@ This pattern is fundamental for problems involving arrays with numbers in a spec
 >
 > **Start with these problems in order:**
 >
-> 1. **[[problems/arrays/268/problem|268. Missing Number]]** - Learn basic cyclic sort concept
+> 1. **[[problems/268/problem|268. Missing Number]]** - Learn basic cyclic sort concept
 > 2. **Practice:** Implement `cyclicSort()` for range [1, n]
 > 3. **Practice:** Create `findAllMissing()` for multiple missing numbers
 > 4. **Challenge:** Solve first missing positive with O(1) space
@@ -435,7 +434,7 @@ This pattern is fundamental for problems involving arrays with numbers in a spec
 
 ## 🔗 Related LeetCode Problems
 
-- [[problems/arrays/268/problem|268. Missing Number]] - Basic missing number in range [0, n]
+- [[problems/268/problem|268. Missing Number]] - Basic missing number in range [0, n]
 - **287. Find the Duplicate Number** - Single duplicate in range [1, n]
 - **442. Find All Duplicates in an Array** - Multiple duplicates in range [1, n]
 - **448. Find All Numbers Disappeared** - Multiple missing numbers

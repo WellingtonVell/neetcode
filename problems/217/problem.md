@@ -75,6 +75,6 @@ Given an integer array `nums`, return `true` if any value appears **at least twi
 
 #### 💻 Implementations
 
-![[problems/arrays-and-hashing/217/solve.ts#TypeScript Solution]]
+![[problems/217/solve.ts#TypeScript Solution]]
 
-![[problems/arrays-and-hashing/217/solve.go#Go Solution]]
+![[problems/217/solve.go#Go Solution]]

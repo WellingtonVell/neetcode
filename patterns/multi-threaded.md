@@ -10,7 +10,6 @@ tags:
   ]
 aliases: [concurrent-programming, thread-safety, parallel-algorithms]
 type: pattern-guide
-status: complete
 difficulty: Advanced
 time_complexity: "Varies"
 space_complexity: "O(n)"
@@ -842,7 +841,7 @@ This pattern is essential for building high-performance applications that can ut
 >
 > **Start with these problems in order:**
 >
-> 1. **[[problems/multi-threaded/1114/problem|1114. Print in Order]]** - Basic thread synchronization
+> 1. **[[problems/1114/problem|1114. Print in Order]]** - Basic thread synchronization
 > 2. **Practice:** Implement producer-consumer with bounded buffer
 > 3. **Practice:** Solve reader-writer problem with priority policies
 > 4. **Challenge:** Implement dining philosophers without deadlock
@@ -866,7 +865,7 @@ This pattern is essential for building high-performance applications that can ut
 
 ## 🔗 Related LeetCode Problems
 
-- [[problems/multi-threaded/1114/problem|1114. Print in Order]] - Basic thread synchronization
+- [[problems/1114/problem|1114. Print in Order]] - Basic thread synchronization
 - **1115. Print FooBar Alternately** - Two-thread coordination
 - **1116. Print Zero Even Odd** - Three-thread coordination
 - **1117. Building H2O** - Resource management with constraints

@@ -24,7 +24,7 @@ prerequisites: [PREREQUISITE1, PREREQUISITE2]
 related_patterns: [RELATED_PATTERN1, RELATED_PATTERN2]
 leetcode_problems: [NUMBER1, NUMBER2, NUMBER3]
 emoji: EMOJI
-title: PATTERN_NAME Pattern
+title: PATTERN_NAME
 description: BRIEF_DESCRIPTION
 ---
 ```
@@ -67,7 +67,7 @@ Pattern files must follow this exact section order:
 ### Links
 
 - Use `[[README|🏠HOME]]` for navigation back to main page
-- Use `[[problems/category/number/problem|Number. Title]]` for problem links
+- Use `[[problems/number/problem|Number. Title]]` for problem links
 - Use `[[patterns/pattern-name|Pattern Name]]` for pattern cross-references
 
 ### Performance Table
@@ -117,4 +117,4 @@ Use [patterns.md](mdc:templates/patterns.md) as the starting point for all new p
 
 ## Examples
 
-See [hash-set-pattern.md](mdc:patterns/hash-set-pattern.md) for a complete example following this format.
+See [two-pointers.md](mdc:patterns/two-pointers.md) for a complete example following this format.

@@ -2,7 +2,6 @@
 tags: [pattern, subsets, data-structure, algorithms, backtracking]
 aliases: [subset-generation, powerset, combinatorics]
 type: pattern-guide
-status: complete
 difficulty: Intermediate
 time_complexity: "O(2^n)"
 space_complexity: "O(2^n)"
@@ -460,7 +459,7 @@ This pattern is fundamental for combinatorial problems requiring exhaustive enum
 >
 > **Start with these problems in order:**
 >
-> 1. **[[problems/backtracking/78/problem|78. Subsets]]** - Master basic subset generation
+> 1. **[[problems/78/problem|78. Subsets]]** - Master basic subset generation
 > 2. **Practice:** Implement `permute()` with used array tracking
 > 3. **Practice:** Create `subsetsWithDup()` handling duplicate elements
 > 4. **Challenge:** Solve combination sum with target constraints
@@ -484,7 +483,7 @@ This pattern is fundamental for combinatorial problems requiring exhaustive enum
 
 ## 🔗 Related LeetCode Problems
 
-- [[problems/backtracking/78/problem|78. Subsets]] - Basic subset generation
+- [[problems/78/problem|78. Subsets]] - Basic subset generation
 - **90. Subsets II** - Subsets with duplicate elements
 - **46. Permutations** - Basic permutation generation
 - **47. Permutations II** - Permutations with duplicates

@@ -2,7 +2,6 @@
 tags: [pattern, binary-search, data-structure, algorithms, searching]
 aliases: [binary-search-variations, advanced-binary-search, search-optimization]
 type: pattern-guide
-status: complete
 difficulty: Intermediate
 time_complexity: "O(log n)"
 space_complexity: "O(1)"
@@ -500,7 +499,7 @@ This pattern is fundamental for optimization problems and complex search scenari
 >
 > **Start with these problems in order:**
 >
-> 1. **[[problems/binary-search/33/problem|33. Search in Rotated Sorted Array]]** - Master rotated array search
+> 1. **[[problems/33/problem|33. Search in Rotated Sorted Array]]** - Master rotated array search
 > 2. **Practice:** Implement `findPeakElement()` with slope following
 > 3. **Practice:** Create `searchRange()` for first/last occurrence
 > 4. **Challenge:** Solve optimization problems with answer space binary search
@@ -524,7 +523,7 @@ This pattern is fundamental for optimization problems and complex search scenari
 
 ## 🔗 Related LeetCode Problems
 
-- [[problems/binary-search/33/problem|33. Search in Rotated Sorted Array]] - Classic rotated array search
+- [[problems/33/problem|33. Search in Rotated Sorted Array]] - Classic rotated array search
 - **81. Search in Rotated Sorted Array II** - With duplicates
 - **153. Find Minimum in Rotated Sorted Array** - Find pivot point
 - **162. Find Peak Element** - Peak finding with binary search

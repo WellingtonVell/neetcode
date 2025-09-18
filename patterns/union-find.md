@@ -2,7 +2,6 @@
 tags: [pattern, union-find, disjoint-set, graph, connectivity, data-structure]
 aliases: [disjoint-set-union, dsu, find-union, merge-find]
 type: pattern-guide
-status: complete
 difficulty: Intermediate
 time_complexity: "O(α(n))"
 space_complexity: "O(n)"
@@ -611,7 +610,7 @@ With path compression and union by rank optimizations, operations run in nearly 
 >
 > **Start with these problems in order:**
 >
-> 1. **[[problems/union-find/547/problem|547. Number of Provinces]]** - Basic connected components
+> 1. **[[problems/547/problem|547. Number of Provinces]]** - Basic connected components
 > 2. **Practice:** Implement `numIslands()` using Union Find approach
 > 3. **Practice:** Solve `findRedundantConnection()` for cycle detection
 > 4. **Challenge:** Tackle `accountsMerge()` for complex grouping
@@ -635,7 +634,7 @@ With path compression and union by rank optimizations, operations run in nearly 
 
 ## 🔗 Related LeetCode Problems
 
-- [[problems/union-find/200/problem|200. Number of Islands]] - Grid connectivity with Union Find
+- [[problems/200/problem|200. Number of Islands]] - Grid connectivity with Union Find
 - **547. Number of Provinces** - Basic connected components
 - **684. Redundant Connection** - Cycle detection in undirected graph
 - **721. Accounts Merge** - Grouping with equivalence relations

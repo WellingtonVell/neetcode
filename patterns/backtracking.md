@@ -7,7 +7,6 @@ aliases:
     constraint-satisfaction,
   ]
 type: pattern-guide
-status: complete
 difficulty: Advanced
 time_complexity: "O(b^d)"
 space_complexity: "O(d)"
@@ -641,7 +640,7 @@ This pattern is essential when you need to explore a solution space exhaustively
 >
 > **Start with these problems in order:**
 >
-> 1. **[[problems/backtracking/46/problem|46. Permutations]]** - Master basic choose-explore-unchoose
+> 1. **[[problems/46/problem|46. Permutations]]** - Master basic choose-explore-unchoose
 > 2. **Practice:** Implement `combinationSum()` with start index technique
 > 3. **Practice:** Solve `generateParenthesis()` with constraint tracking
 > 4. **Challenge:** Tackle N-Queens with efficient conflict detection
@@ -665,7 +664,7 @@ This pattern is essential when you need to explore a solution space exhaustively
 
 ## 🔗 Related LeetCode Problems
 
-- [[problems/backtracking/46/problem|46. Permutations]] - Classic backtracking introduction
+- [[problems/46/problem|46. Permutations]] - Classic backtracking introduction
 - **47. Permutations II** - Handle duplicates in permutations
 - **39. Combination Sum** - Target sum with repetition allowed
 - **40. Combination Sum II** - Target sum without repetition

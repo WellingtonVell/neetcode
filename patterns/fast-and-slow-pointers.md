@@ -2,7 +2,6 @@
 tags: [pattern, two-pointers, data-structure, algorithms, linked-list]
 aliases: [tortoise-hare, floyd-cycle-detection, runner-technique]
 type: pattern-guide
-status: complete
 difficulty: Intermediate
 time_complexity: "O(n)"
 space_complexity: "O(1)"
@@ -389,7 +388,7 @@ This pattern is fundamental for linked list problems that require detecting patt
 >
 > **Start with these problems in order:**
 >
-> 1. **[[problems/linked-list/141/problem|141. Linked List Cycle]]** - Learn basic cycle detection
+> 1. **[[problems/141/problem|141. Linked List Cycle]]** - Learn basic cycle detection
 > 2. **Practice:** Implement `findMiddle()` function for odd/even length lists
 > 3. **Practice:** Create `removeNthFromEnd()` with edge case handling
 > 4. **Challenge:** Solve palindrome detection without extra space
@@ -413,7 +412,7 @@ This pattern is fundamental for linked list problems that require detecting patt
 
 ## 🔗 Related LeetCode Problems
 
-- [[problems/linked-list/141/problem|141. Linked List Cycle]] - Basic cycle detection
+- [[problems/141/problem|141. Linked List Cycle]] - Basic cycle detection
 - **142. Linked List Cycle II** - Find where cycle begins
 - **876. Middle of the Linked List** - Find middle element
 - **234. Palindrome Linked List** - Check palindrome with O(1) space

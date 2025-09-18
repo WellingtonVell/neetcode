@@ -2,7 +2,6 @@
 tags: [pattern, breadth-first-search, data-structure, algorithms, trees]
 aliases: [bfs, level-order-traversal, queue-based-traversal]
 type: pattern-guide
-status: complete
 difficulty: Beginner
 time_complexity: "O(n)"
 space_complexity: "O(w)"
@@ -485,7 +484,7 @@ This pattern is fundamental for tree and graph problems requiring level-wise pro
 >
 > **Start with these problems in order:**
 >
-> 1. **[[problems/trees/102/problem|102. Binary Tree Level Order Traversal]]** - Master basic BFS template
+> 1. **[[problems/102/problem|102. Binary Tree Level Order Traversal]]** - Master basic BFS template
 > 2. **Practice:** Implement `rightSideView()` to understand level processing
 > 3. **Practice:** Create `zigzagLevelOrder()` with direction handling
 > 4. **Challenge:** Solve connecting siblings with O(1) space optimization
@@ -509,7 +508,7 @@ This pattern is fundamental for tree and graph problems requiring level-wise pro
 
 ## 🔗 Related LeetCode Problems
 
-- [[problems/trees/102/problem|102. Binary Tree Level Order Traversal]] - Basic BFS traversal
+- [[problems/102/problem|102. Binary Tree Level Order Traversal]] - Basic BFS traversal
 - **103. Binary Tree Zigzag Level Order Traversal** - Direction-alternating traversal
 - **107. Binary Tree Level Order Traversal II** - Bottom-up level order
 - **111. Minimum Depth of Binary Tree** - Early termination BFS

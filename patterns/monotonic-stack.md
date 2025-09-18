@@ -3,7 +3,6 @@ tags:
   [pattern, monotonic-stack, stack, data-structure, algorithms, optimization]
 aliases: [monotonic-deque, decreasing-stack, increasing-stack]
 type: pattern-guide
-status: complete
 difficulty: Intermediate
 time_complexity: "O(n)"
 space_complexity: "O(n)"
@@ -556,7 +555,7 @@ This pattern transforms O(n²) brute force solutions into O(n) efficient algorit
 >
 > **Start with these problems in order:**
 >
-> 1. **[[problems/monotonic-stack/496/problem|496. Next Greater Element I]]** - Master basic monotonic stack
+> 1. **[[problems/496/problem|496. Next Greater Element I]]** - Master basic monotonic stack
 > 2. **Practice:** Implement `dailyTemperatures()` for distance calculation
 > 3. **Practice:** Solve `largestRectangleArea()` for area calculation
 > 4. **Challenge:** Build `StockSpanner` for streaming applications
@@ -580,7 +579,7 @@ This pattern transforms O(n²) brute force solutions into O(n) efficient algorit
 
 ## 🔗 Related LeetCode Problems
 
-- [[problems/monotonic-stack/496/problem|496. Next Greater Element I]] - Basic monotonic stack introduction
+- [[problems/496/problem|496. Next Greater Element I]] - Basic monotonic stack introduction
 - **503. Next Greater Element II** - Circular array variation
 - **739. Daily Temperatures** - Distance calculation with monotonic stack
 - **84. Largest Rectangle in Histogram** - Classic area calculation problem

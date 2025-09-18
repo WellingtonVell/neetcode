@@ -10,7 +10,6 @@ tags:
   ]
 aliases: [dp, memoization, tabulation, optimization]
 type: pattern-guide
-status: complete
 difficulty: Advanced
 time_complexity: "O(n^2)"
 space_complexity: "O(n)"
@@ -568,7 +567,7 @@ This pattern transforms exponential recursive solutions into polynomial time alg
 >
 > **Start with these problems in order:**
 >
-> 1. **[[problems/dp/70/problem|70. Climbing Stairs]]** - Master basic 1D DP
+> 1. **[[problems/70/problem|70. Climbing Stairs]]** - Master basic 1D DP
 > 2. **Practice:** Implement `coinChange()` understanding bottom-up approach
 > 3. **Practice:** Solve `uniquePaths()` for 2D grid DP
 > 4. **Challenge:** Tackle `longestCommonSubsequence()` for string DP
@@ -592,7 +591,7 @@ This pattern transforms exponential recursive solutions into polynomial time alg
 
 ## 🔗 Related LeetCode Problems
 
-- [[problems/dp/70/problem|70. Climbing Stairs]] - Basic 1D DP introduction
+- [[problems/70/problem|70. Climbing Stairs]] - Basic 1D DP introduction
 - **322. Coin Change** - Classic unbounded knapsack DP
 - **300. Longest Increasing Subsequence** - Sequence DP with optimization
 - **416. Partition Equal Subset Sum** - 0/1 Knapsack variant

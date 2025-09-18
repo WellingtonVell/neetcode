@@ -73,6 +73,6 @@ Given two strings `s` and `t`, return `true` if `t` is an anagram of `s`, and `f
 
 #### 💻 Implementations
 
-![[problems/arrays-and-hashing/242/solve.ts#TypeScript Solution]]
+![[problems/242/solve.ts#TypeScript Solution]]
 
-![[problems/arrays-and-hashing/242/solve.go#Go Solution]]
+![[problems/242/solve.go#Go Solution]]

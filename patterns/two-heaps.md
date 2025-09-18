@@ -2,7 +2,6 @@
 tags: [pattern, two-heaps, data-structure, algorithms, priority-queue]
 aliases: [dual-heap, heap-balancing, median-heap]
 type: pattern-guide
-status: complete
 difficulty: Advanced
 time_complexity: "O(log n)"
 space_complexity: "O(n)"
@@ -540,7 +539,7 @@ This pattern is fundamental for problems requiring dynamic median calculation, b
 >
 > **Start with these problems in order:**
 >
-> 1. **[[problems/heaps/295/problem|295. Find Median from Data Stream]]** - Master basic two-heap technique
+> 1. **[[problems/295/problem|295. Find Median from Data Stream]]** - Master basic two-heap technique
 > 2. **Practice:** Implement heap balancing logic correctly
 > 3. **Practice:** Create sliding window median with efficient removal
 > 4. **Challenge:** Solve IPO problem with dual heap optimization
@@ -564,7 +563,7 @@ This pattern is fundamental for problems requiring dynamic median calculation, b
 
 ## 🔗 Related LeetCode Problems
 
-- [[problems/heaps/295/problem|295. Find Median from Data Stream]] - Classic two heaps median problem
+- [[problems/295/problem|295. Find Median from Data Stream]] - Classic two heaps median problem
 - **480. Sliding Window Median** - Extend median finding to sliding windows
 - **502. IPO** - Use heaps for capital and profit optimization
 - **436. Find Right Interval** - Heap-based interval matching

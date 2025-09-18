@@ -2,7 +2,6 @@
 tags: [pattern, linked-list, data-structure, algorithms, reversal]
 aliases: [linked-list-reversal, in-place-reversal, pointer-reversal]
 type: pattern-guide
-status: complete
 difficulty: Intermediate
 time_complexity: "O(n)"
 space_complexity: "O(1)"
@@ -460,7 +459,7 @@ This pattern is fundamental for linked list problems requiring structural modifi
 >
 > **Start with these problems in order:**
 >
-> 1. **[[problems/linked-list/206/problem|206. Reverse Linked List]]** - Master basic three-pointer technique
+> 1. **[[problems/206/problem|206. Reverse Linked List]]** - Master basic three-pointer technique
 > 2. **Practice:** Implement `reverseBetween()` for partial reversal
 > 3. **Practice:** Create `reverseKGroup()` with iterative approach
 > 4. **Challenge:** Solve palindrome check combining multiple patterns
@@ -484,7 +483,7 @@ This pattern is fundamental for linked list problems requiring structural modifi
 
 ## 🔗 Related LeetCode Problems
 
-- [[problems/linked-list/206/problem|206. Reverse Linked List]] - Basic linked list reversal
+- [[problems/206/problem|206. Reverse Linked List]] - Basic linked list reversal
 - **92. Reverse Linked List II** - Reverse sub-list between positions
 - **25. Reverse Nodes in k-Group** - Advanced k-group reversal
 - **61. Rotate List** - List rotation using reversal concepts

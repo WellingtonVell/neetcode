@@ -2,7 +2,6 @@
 tags: [pattern, matrix-traversal, data-structure, algorithms, matrix]
 aliases: [island-pattern, grid-traversal, dfs-matrix, bfs-matrix]
 type: pattern-guide
-status: draft
 difficulty: Intermediate
 time_complexity: "O(m * n)"
 space_complexity: "O(m * n)"
@@ -492,7 +491,7 @@ This pattern is fundamental for grid-based problems that require grouping connec
 >
 > **Start with these problems in order:**
 >
-> 1. **[[problems/matrix/200/problem|200. Number of Islands]]** - Learn basic DFS island counting
+> 1. **[[problems/200/problem|200. Number of Islands]]** - Learn basic DFS island counting
 > 2. **Practice:** Implement `floodFill()` function with color replacement
 > 3. **Practice:** Create `maxAreaOfIsland()` with area calculation
 > 4. **Challenge:** Solve surrounded regions without extra space
@@ -516,7 +515,7 @@ This pattern is fundamental for grid-based problems that require grouping connec
 
 ## 🔗 Related LeetCode Problems
 
-- [[problems/matrix/200/problem|200. Number of Islands]] - Classic island counting problem
+- [[problems/200/problem|200. Number of Islands]] - Classic island counting problem
 - **695. Max Area of Island** - Find largest connected component
 - **733. Flood Fill** - Basic region filling algorithm
 - **130. Surrounded Regions** - Border-connected region analysis

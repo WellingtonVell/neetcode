@@ -2,7 +2,6 @@
 tags: [pattern, PATTERN_TYPE, data-structure, algorithms, CATEGORY]
 aliases: [ALIAS1, ALIAS2, ALIAS3]
 type: pattern-guide
-status: draft
 difficulty: DIFFICULTY_LEVEL
 time_complexity: "O(COMPLEXITY)"
 space_complexity: "O(COMPLEXITY)"
@@ -254,7 +253,7 @@ This pattern is fundamental for [specific problem types] that require [specific 
 >
 > **Start with these problems in order:**
 >
-> 1. **[[problems/CATEGORY/NUMBER/problem|NUMBER. Problem Title]]** - Learn basic pattern
+> 1. **[[problems/NUMBER/problem|NUMBER. Problem Title]]** - Learn basic pattern
 > 2. **Practice:** Implement `functionName()` function
 > 3. **Practice:** Create `anotherFunction()` with variations
 > 4. **Challenge:** Solve without using built-in methods
@@ -278,7 +277,7 @@ This pattern is fundamental for [specific problem types] that require [specific 
 
 ## 🔗 Related LeetCode Problems
 
-- [[problems/CATEGORY/NUMBER/problem|NUMBER. Problem Title]] - Pattern application
+- [[problems/NUMBER/problem|NUMBER. Problem Title]] - Pattern application
 - **NUMBER. Problem Title** - Related concept
 - **NUMBER. Problem Title** - Similar pattern usage
 - **NUMBER. Problem Title** - Advanced application

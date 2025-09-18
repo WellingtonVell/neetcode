@@ -2,7 +2,6 @@
 tags: [pattern, heap, priority-queue, data-structure, algorithms, top-k]
 aliases: [kth-largest, heap-sort, priority-queue-problems]
 type: pattern-guide
-status: complete
 difficulty: Intermediate
 time_complexity: "O(n log k)"
 space_complexity: "O(k)"
@@ -536,7 +535,7 @@ This pattern is essential for ranking, recommendation systems, and real-time ana
 >
 > **Start with these problems in order:**
 >
-> 1. **[[problems/heap/215/problem|215. Kth Largest Element in an Array]]** - Master basic heap operations
+> 1. **[[problems/215/problem|215. Kth Largest Element in an Array]]** - Master basic heap operations
 > 2. **Practice:** Implement `topKFrequent()` with frequency counting
 > 3. **Practice:** Solve `kClosest()` with distance calculations
 > 4. **Challenge:** Build `KthLargest` class for streaming data
@@ -560,7 +559,7 @@ This pattern is essential for ranking, recommendation systems, and real-time ana
 
 ## 🔗 Related LeetCode Problems
 
-- [[problems/heap/215/problem|215. Kth Largest Element in an Array]] - Classic heap-based selection
+- [[problems/215/problem|215. Kth Largest Element in an Array]] - Classic heap-based selection
 - **347. Top K Frequent Elements** - Frequency counting with heaps
 - **692. Top K Frequent Words** - String frequency with custom comparison
 - **973. K Closest Points to Origin** - Distance-based heap problems

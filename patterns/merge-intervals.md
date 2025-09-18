@@ -2,7 +2,6 @@
 tags: [pattern, merge-intervals, data-structure, algorithms, sorting]
 aliases: [interval-merging, range-operations, interval-scheduling]
 type: pattern-guide
-status: complete
 difficulty: Intermediate
 time_complexity: "O(n log n)"
 space_complexity: "O(n)"
@@ -392,7 +391,7 @@ This pattern is fundamental for problems involving time-based scheduling, range 
 >
 > **Start with these problems in order:**
 >
-> 1. **[[problems/intervals/56/problem|56. Merge Intervals]]** - Learn basic interval merging
+> 1. **[[problems/56/problem|56. Merge Intervals]]** - Learn basic interval merging
 > 2. **Practice:** Implement `insertInterval()` for sorted interval lists
 > 3. **Practice:** Create `findFreeTime()` to identify gaps in schedules
 > 4. **Challenge:** Solve meeting rooms with minimum cost room allocation
@@ -416,7 +415,7 @@ This pattern is fundamental for problems involving time-based scheduling, range 
 
 ## 🔗 Related LeetCode Problems
 
-- [[problems/intervals/56/problem|56. Merge Intervals]] - Basic interval merging pattern
+- [[problems/56/problem|56. Merge Intervals]] - Basic interval merging pattern
 - **57. Insert Interval** - Insert into sorted interval list
 - **435. Non-overlapping Intervals** - Greedy interval removal
 - **452. Minimum Number of Arrows** - Interval intersection optimization

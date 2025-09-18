@@ -1,4 +1,4 @@
-// go run problems/arrays-and-hashing/217/solve.go
+// go run problems/217/solve.go
 
 package main
 

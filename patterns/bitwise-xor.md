@@ -2,7 +2,6 @@
 tags: [pattern, bitwise, xor, bit-manipulation, algorithms, mathematics]
 aliases: [xor-tricks, bit-operations, exclusive-or]
 type: pattern-guide
-status: complete
 difficulty: Intermediate
 time_complexity: "O(n)"
 space_complexity: "O(1)"
@@ -438,7 +437,7 @@ This pattern is powerful because XOR has unique properties: `a âŠ• a = 0`, `a âŠ
 >
 > **Start with these problems in order:**
 >
-> 1. **[[problems/bit-manipulation/136/problem|136. Single Number]]** - Master basic XOR elimination
+> 1. **[[problems/136/problem|136. Single Number]]** - Master basic XOR elimination
 > 2. **Practice:** Implement `missingNumber()` with XOR approach
 > 3. **Practice:** Solve `findComplement()` with bit masking
 > 4. **Challenge:** Tackle two single numbers problem with bit partitioning
@@ -462,7 +461,7 @@ This pattern is powerful because XOR has unique properties: `a âŠ• a = 0`, `a âŠ
 
 ## ðŸ”— Related LeetCode Problems
 
-- [[problems/bit-manipulation/136/problem|136. Single Number]] - Classic XOR elimination problem
+- [[problems/136/problem|136. Single Number]] - Classic XOR elimination problem
 - **137. Single Number II** - Advanced single number with triples
 - **260. Single Number III** - Find two single numbers
 - **268. Missing Number** - XOR approach for missing elements

@@ -2,7 +2,6 @@
 tags: [pattern, k-way-merge, heap, priority-queue, sorting, algorithms]
 aliases: [merge-k-lists, k-sorted-merge, multi-way-merge]
 type: pattern-guide
-status: complete
 difficulty: Intermediate
 time_complexity: "O(n log k)"
 space_complexity: "O(k)"
@@ -668,7 +667,7 @@ This pattern excels at maintaining order while processing multiple sorted inputs
 >
 > **Start with these problems in order:**
 >
-> 1. **[[problems/k-way-merge/23/problem|23. Merge k Sorted Lists]]** - Master basic heap coordination
+> 1. **[[problems/23/problem|23. Merge k Sorted Lists]]** - Master basic heap coordination
 > 2. **Practice:** Implement `kthSmallest()` for matrix problems
 > 3. **Practice:** Solve `smallestRange()` for range optimization
 > 4. **Challenge:** Tackle `kSmallestPairs()` with systematic expansion
@@ -692,7 +691,7 @@ This pattern excels at maintaining order while processing multiple sorted inputs
 
 ## 🔗 Related LeetCode Problems
 
-- [[problems/k-way-merge/23/problem|23. Merge k Sorted Lists]] - Classic K-way merge with linked lists
+- [[problems/23/problem|23. Merge k Sorted Lists]] - Classic K-way merge with linked lists
 - **373. Find K Pairs with Smallest Sums** - Systematic pair generation
 - **378. Kth Smallest Element in a Sorted Matrix** - Matrix traversal with heap
 - **632. Smallest Range Covering Elements from K Lists** - Range optimization

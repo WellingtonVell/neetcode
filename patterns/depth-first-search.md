@@ -2,7 +2,6 @@
 tags: [pattern, depth-first-search, data-structure, algorithms, trees]
 aliases: [dfs, tree-traversal, recursive-traversal]
 type: pattern-guide
-status: complete
 difficulty: Intermediate
 time_complexity: "O(n)"
 space_complexity: "O(h)"
@@ -424,7 +423,7 @@ This pattern is fundamental for tree and graph problems requiring path analysis,
 >
 > **Start with these problems in order:**
 >
-> 1. **[[problems/trees/104/problem|104. Maximum Depth of Binary Tree]]** - Learn basic recursive DFS
+> 1. **[[problems/104/problem|104. Maximum Depth of Binary Tree]]** - Learn basic recursive DFS
 > 2. **Practice:** Implement `hasPathSum()` for root-to-leaf path checking
 > 3. **Practice:** Create `binaryTreePaths()` with backtracking
 > 4. **Challenge:** Solve maximum path sum with global variable tracking
@@ -448,7 +447,7 @@ This pattern is fundamental for tree and graph problems requiring path analysis,
 
 ## 🔗 Related LeetCode Problems
 
-- [[problems/trees/112/problem|112. Path Sum]] - Basic root-to-leaf path sum
+- [[problems/112/problem|112. Path Sum]] - Basic root-to-leaf path sum
 - **113. Path Sum II** - Find all root-to-leaf paths with target sum
 - **437. Path Sum III** - Count paths with sum (any start/end points)
 - **104. Maximum Depth of Binary Tree** - Basic tree height calculation

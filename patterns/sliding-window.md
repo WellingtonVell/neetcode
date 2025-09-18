@@ -2,7 +2,6 @@
 tags: [pattern, sliding-window, data-structure, algorithms, arrays]
 aliases: [window-technique, subarray-pattern, dynamic-window]
 type: pattern-guide
-status: complete
 difficulty: Intermediate
 time_complexity: "O(n)"
 space_complexity: "O(1)"
@@ -391,7 +390,7 @@ This pattern is fundamental for array and string problems that involve finding c
 >
 > **Start with these problems in order:**
 >
-> 1. **[[problems/arrays/643/problem|643. Maximum Average Subarray I]]** - Learn basic fixed window
+> 1. **[[problems/643/problem|643. Maximum Average Subarray I]]** - Learn basic fixed window
 > 2. **Practice:** Implement `minSubarraySum()` for variable window
 > 3. **Practice:** Create `longestSubstringKDistinct()` with character tracking
 > 4. **Challenge:** Solve sliding window maximum with deque optimization
@@ -415,7 +414,7 @@ This pattern is fundamental for array and string problems that involve finding c
 
 ## 🔗 Related LeetCode Problems
 
-- [[problems/strings/3/problem|3. Longest Substring Without Repeating Characters]] - Variable window with character set
+- [[problems/3/problem|3. Longest Substring Without Repeating Characters]] - Variable window with character set
 - **76. Minimum Window Substring** - Advanced variable window with frequency matching
 - **209. Minimum Size Subarray Sum** - Variable window with sum condition
 - **424. Longest Repeating Character Replacement** - Variable window with replacement constraint

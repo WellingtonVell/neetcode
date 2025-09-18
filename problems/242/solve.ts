@@ -1,4 +1,4 @@
-// npx tsx problems/arrays-and-hashing/242/solve.ts
+// npx tsx problems/242/solve.ts
 
 // Runtime: 7ms, Memory: 57.9MB
 function isAnagram(s: string, t: string): boolean {

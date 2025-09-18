@@ -2,7 +2,6 @@
 tags: [pattern, graphs, topological-sort, dfs, bfs, algorithms, data-structure]
 aliases: [graph-algorithms, topological-ordering, dependency-resolution]
 type: pattern-guide
-status: complete
 difficulty: Advanced
 time_complexity: "O(V + E)"
 space_complexity: "O(V)"
@@ -767,7 +766,7 @@ This pattern is essential for modeling relationships, dependencies, and hierarch
 >
 > **Start with these problems in order:**
 >
-> 1. **[[problems/graph/207/problem|207. Course Schedule]]** - Master basic cycle detection
+> 1. **[[problems/207/problem|207. Course Schedule]]** - Master basic cycle detection
 > 2. **Practice:** Implement `findOrder()` for topological ordering
 > 3. **Practice:** Solve `alienOrder()` for custom ordering constraints
 > 4. **Challenge:** Tackle minimum height trees with level-wise processing
@@ -791,7 +790,7 @@ This pattern is essential for modeling relationships, dependencies, and hierarch
 
 ## 🔗 Related LeetCode Problems
 
-- [[problems/graph/207/problem|207. Course Schedule]] - Basic cycle detection with Kahn's algorithm
+- [[problems/207/problem|207. Course Schedule]] - Basic cycle detection with Kahn's algorithm
 - **210. Course Schedule II** - Topological ordering with dependency resolution
 - **269. Alien Dictionary** - Custom ordering from constraints
 - **802. Find Eventual Safe States** - Safe node detection in directed graphs
