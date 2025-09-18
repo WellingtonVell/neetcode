@@ -1,0 +1,120 @@
+---
+description: "Pattern formatting guidelines for algorithm pattern documentation files"
+globs: patterns/*.md
+---
+
+# Pattern Documentation Format Guidelines
+
+This rule defines the standard format for algorithm pattern documentation files in the patterns directory.
+
+## Required Frontmatter
+
+All pattern files must include this exact frontmatter structure:
+
+```yaml
+---
+tags: [pattern, PATTERN_TYPE, data-structure, algorithms, CATEGORY]
+aliases: [ALIAS1, ALIAS2, ALIAS3]
+type: pattern-guide
+status: draft|complete|review
+difficulty: Beginner|Intermediate|Advanced|Expert
+time_complexity: "O(COMPLEXITY)"
+space_complexity: "O(COMPLEXITY)"
+prerequisites: [PREREQUISITE1, PREREQUISITE2]
+related_patterns: [RELATED_PATTERN1, RELATED_PATTERN2]
+leetcode_problems: [NUMBER1, NUMBER2, NUMBER3]
+emoji: EMOJI
+title: PATTERN_NAME Pattern
+description: BRIEF_DESCRIPTION
+---
+```
+
+## Required Structure
+
+Pattern files must follow this exact section order:
+
+1. **Title Section** - `# EMOJI PATTERN_NAME Pattern`
+2. **Overview** - Brief description with bullet points and analogy
+3. **When to Use** - Success/Warning callouts with specific use cases
+4. **Core Implementations** - TypeScript and Golang code examples
+5. **Common Problem Patterns** - 4+ example patterns with key insights
+6. **Performance Analysis** - Table with complexity analysis
+7. **Advanced Variations** - 4+ advanced techniques
+8. **Edge Cases & Gotchas** - Warning callouts and testing strategy
+9. **Practice Exercises** - Guided learning path with tips
+10. **Related LeetCode Problems** - Linked problems with descriptions
+11. **Brain Connections** - Links to related patterns
+12. **Key Insights** - 4 key takeaways with emojis
+
+## Formatting Requirements
+
+### Callout Boxes
+
+- Use `> [!success]- Perfect For` for when to use
+- Use `> [!warning]- Avoid When` for when not to use
+- Use `> [!info]- Language` for code implementations
+- Use `> [!example]- Pattern N` for problem patterns
+- Use `> [!note]- Performance Considerations` for performance notes
+- Use `> [!tip]- Guided Learning` for practice sections
+
+### Code Examples
+
+- Always provide both TypeScript and Golang implementations
+- Include meaningful comments in code
+- Show multiple variations (basic, advanced, helpers)
+- Use proper typing and error handling
+
+### Links
+
+- Use `[[README|🏠HOME]]` for navigation back to main page
+- Use `[[problems/category/number/problem|Number. Title]]` for problem links
+- Use `[[patterns/pattern-name|Pattern Name]]` for pattern cross-references
+
+### Performance Table
+
+Always include a table with these columns:
+
+- Operation | Average | Worst Case | Space | Notes
+
+### Key Insights Section
+
+Must include exactly 4 insights with these emojis:
+
+- 🧠 **Pattern Recognition**
+- 🔧 **Implementation Choice**
+- ⚡ **Performance**
+- 🎯 **Edge Cases**
+
+## Content Guidelines
+
+### Overview Section
+
+- Start with what the pattern provides
+- Include 4-6 bullet points of main benefits
+- End with a helpful analogy in italics and quotes
+
+### Problem Patterns
+
+- Include at least 4 common problem patterns
+- Each must have: Problem description, code example, key insight
+- Focus on teaching the thought process
+
+### Practice Exercises
+
+- Provide a guided learning path
+- Include specific problem recommendations
+- List key learning points and pro tips
+
+## File Naming
+
+- Use kebab-case: `pattern-name-pattern.md`
+- Match the pattern title in the filename
+- Store in `patterns/` directory
+
+## Template Usage
+
+Use [patterns.md](mdc:templates/patterns.md) as the starting point for all new pattern files. Replace all PLACEHOLDER values with appropriate content.
+
+## Examples
+
+See [hash-set-pattern.md](mdc:patterns/hash-set-pattern.md) for a complete example following this format.

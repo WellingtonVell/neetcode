@@ -1,0 +1,166 @@
+---
+description: "LeetCode problem formatting guidelines for problem.md files"
+globs: **/problem.md
+alwaysApply: false
+---
+
+# LeetCode Problem Format Guidelines
+
+All `problem.md` files must follow the standardized template format defined in [templates/problem.md](mdc:templates/problem.md).
+
+## Required Structure
+
+### 1. Frontmatter
+
+```yaml
+---
+title: Problem Title
+leetcode_id: XXX
+difficulty: Easy|Medium|Hard
+category: Arrays & Hashing|Two Pointers|etc
+status: draft|in-progress|solved|needs-review
+tags: [tag1, tag2]
+companies: [company1, company2, company3]
+related_problems: [XXX, YYY, ZZZ]
+---
+```
+
+### 2. Navigation Link
+
+```markdown
+[[README|🏠HOME]]
+```
+
+### 3. Problem Title
+
+```markdown
+# XXX. [Problem Title](https://leetcode.com/problems/problem-slug/description/)
+```
+
+### 4. Problem Statement Section
+
+```markdown
+## 📝 Problem Statement
+
+[Problem description goes here]
+
+---
+```
+
+### 5. Examples (Using Obsidian Callouts)
+
+```markdown
+> [!example]- Example 1
+>
+> **Input:**  
+> `input_here`
+>
+> **Output:**  
+> `output_here`
+>
+> **Explanation:**  
+> Explanation text here
+
+> [!example]- Example 2
+> [Same format as Example 1]
+```
+
+### 6. Constraints (Using Warning Callout)
+
+```markdown
+> [!warning]- Constraints
+>
+> - Constraint 1
+> - Constraint 2
+> - Constraint 3
+```
+
+### 7. Optional Follow Up
+
+```markdown
+> [!info]- Follow Up (Optional)
+>
+> **Question:** Follow up question here
+>
+> **Answer:** Answer to follow up
+```
+
+### 8. Solutions Section
+
+```markdown
+---
+
+## 🛠️ Solutions
+
+### Approach 1: [Approach Name]
+
+- **Time Complexity:** O(...)
+- **Space Complexity:** O(...)
+- **Pattern:** Pattern description
+
+### Approach 2: [Optional Second Approach]
+
+- **Time Complexity:** O(...)
+- **Space Complexity:** O(...)
+- **Pattern:** Pattern description
+```
+
+### 9. Key Insights Section
+
+```markdown
+---
+
+## 🔑 Key Insights
+
+- 🧠 **Pattern Recognition:** [Insight about pattern recognition]
+- 🔧 **Data Structure:** [Insight about data structures used]
+- ⚡ **Optimization:** [Insight about optimizations]
+- 🎯 **Edge Cases:** [Important edge cases to consider]
+```
+
+#### 10. 💻 Implementations
+
+```markdown
+---
+
+#### 💻 Implementations
+
+![[folder-path/problem-id/solve.ts#TypeScript Solution]]
+
+![[folder-path/problem-id/solve.go#Go Solution]]
+```
+
+## Formatting Rules
+
+1. **Emojis in Headers:** Use consistent emojis for each section type
+
+   - 📝 for Problem Statement
+   - 🛠️ for Solutions
+   - 🔑 for Key Insights
+   - 💻 for Implementations
+
+2. **Obsidian Callouts:** Use collapsible callouts for examples, constraints, and follow-ups
+
+   - `> [!example]- Example X` for examples
+   - `> [!warning]- Constraints` for constraints
+   - `> [!info]- Follow Up` for follow-up questions
+
+3. **Horizontal Rules:** Use `---` to separate major sections for visual clarity
+
+4. **Links:**
+
+   - Use `[[internal-links]]` for internal navigation
+   - Use standard markdown links for external LeetCode URLs
+   - Include home navigation at the top: `[[README|🏠HOME]]`
+
+5. **Code Blocks:** Use backticks for inline code and proper embedding syntax for solution files
+
+6. **Consistency:** Maintain consistent formatting across all problem files for better navigation and readability in Obsidian
+
+## Pattern Integration
+
+Reference existing pattern files:
+
+- [XXXX](mdc:patterns/xxxxx.md)
+
+This ensures proper cross-linking and knowledge graph connectivity within the vault.
