@@ -17,7 +17,7 @@ description: Create a window over data and slide it to find optimal subarrays or
 
 # 🪟 Sliding Window
 
-## Overview
+## Overview [[README|🏠]]
 
 The Sliding Window pattern creates a "window" over a data structure and slides it to efficiently solve subarray/substring problems:
 
@@ -34,7 +34,7 @@ This pattern is fundamental for array and string problems that involve finding c
 
 ---
 
-## 🎯 When to Use
+## 🎯 When to Use [[README|🏠]]
 
 > [!success]- Perfect For
 >
@@ -55,7 +55,7 @@ This pattern is fundamental for array and string problems that involve finding c
 
 ---
 
-## 💻 Core Implementations
+## 💻 Core Implementations [[README|🏠]]
 
 > [!info]- TypeScript
 >
@@ -170,7 +170,7 @@ This pattern is fundamental for array and string problems that involve finding c
 
 ---
 
-## 🧩 Common Problem Patterns
+## 🧩 Common Problem Patterns [[README|🏠]]
 
 > [!example]- Pattern 1: Fixed Size Window Maximum
 >
@@ -308,7 +308,7 @@ This pattern is fundamental for array and string problems that involve finding c
 
 ---
 
-## ⚡ Performance Analysis
+## ⚡ Performance Analysis [[README|🏠]]
 
 | Operation           | Average | Worst Case | Space       | Notes                                 |
 | ------------------- | ------- | ---------- | ----------- | ------------------------------------- |
@@ -327,7 +327,7 @@ This pattern is fundamental for array and string problems that involve finding c
 
 ---
 
-## 🔄 Advanced Variations
+## 🔄 Advanced Variations [[README|🏠]]
 
 > [!info]- Variation 1: Multiple Windows
 >
@@ -359,7 +359,7 @@ This pattern is fundamental for array and string problems that involve finding c
 
 ---
 
-## ⚠️ Edge Cases & Gotchas
+## ⚠️ Edge Cases & Gotchas [[README|🏠]]
 
 > [!warning]- Critical Edge Cases
 >
@@ -384,7 +384,7 @@ This pattern is fundamental for array and string problems that involve finding c
 
 ---
 
-## 🎯 Practice Exercises
+## 🎯 Practice Exercises [[README|🏠]]
 
 > [!tip]- Guided Learning
 >
@@ -412,7 +412,7 @@ This pattern is fundamental for array and string problems that involve finding c
 
 ---
 
-## 🔗 Related LeetCode Problems
+## 🔗 Related LeetCode Problems [[README|🏠]]
 
 - [[problems/3/problem|3. Longest Substring Without Repeating Characters]] - Variable window with character set
 - **76. Minimum Window Substring** - Advanced variable window with frequency matching
@@ -424,7 +424,7 @@ This pattern is fundamental for array and string problems that involve finding c
 
 ---
 
-## 🧠 Brain Connections
+## 🧠 Brain Connections [[README|🏠]]
 
 - **Two Pointers** → [[patterns/two-pointers|Two Pointers Pattern]] - Foundation for variable window technique
 - **Hash Maps** → Essential for frequency tracking in character problems
@@ -433,7 +433,7 @@ This pattern is fundamental for array and string problems that involve finding c
 
 ---
 
-## 🔑 Key Insights
+## 🔑 Key Insights [[README|🏠]]
 
 - 🧠 **Pattern Recognition:** Use when you need to find optimal contiguous subarrays or substrings with specific properties
 - 🔧 **Implementation Choice:** Choose fixed window for constant size problems, variable window for condition-based problems

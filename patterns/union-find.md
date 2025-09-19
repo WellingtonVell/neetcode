@@ -17,7 +17,7 @@ description: Efficiently track connectivity and grouping using disjoint sets wit
 
 # 🔗 Union Find
 
-## Overview
+## Overview [[README|🏠]]
 
 The Union Find (Disjoint Set Union) pattern maintains a collection of disjoint sets and supports two primary operations efficiently:
 
@@ -34,7 +34,7 @@ With path compression and union by rank optimizations, operations run in nearly 
 
 ---
 
-## 🎯 When to Use
+## 🎯 When to Use [[README|🏠]]
 
 > [!success]- Perfect For
 >
@@ -55,7 +55,7 @@ With path compression and union by rank optimizations, operations run in nearly 
 
 ---
 
-## 💻 Core Implementations
+## 💻 Core Implementations [[README|🏠]]
 
 > [!info]- TypeScript
 
@@ -374,7 +374,7 @@ With path compression and union by rank optimizations, operations run in nearly 
 
 ---
 
-## 🧩 Common Problem Patterns
+## 🧩 Common Problem Patterns [[README|🏠]]
 
 > [!example]- Pattern 1: Connected Components
 >
@@ -527,7 +527,7 @@ With path compression and union by rank optimizations, operations run in nearly 
 
 ---
 
-## ⚡ Performance Analysis
+## ⚡ Performance Analysis [[README|🏠]]
 
 | Operation                    | Time Complexity | Space Complexity | Notes                           |
 | ---------------------------- | --------------- | ---------------- | ------------------------------- |
@@ -546,7 +546,7 @@ With path compression and union by rank optimizations, operations run in nearly 
 
 ---
 
-## 🔄 Advanced Variations
+## 🔄 Advanced Variations [[README|🏠]]
 
 > [!info]- Variation 1: Weighted Union Find
 >
@@ -578,7 +578,7 @@ With path compression and union by rank optimizations, operations run in nearly 
 
 ---
 
-## ⚠️ Edge Cases & Gotchas
+## ⚠️ Edge Cases & Gotchas [[README|🏠]]
 
 > [!warning]- Critical Edge Cases
 >
@@ -604,7 +604,7 @@ With path compression and union by rank optimizations, operations run in nearly 
 
 ---
 
-## 🎯 Practice Exercises
+## 🎯 Practice Exercises [[README|🏠]]
 
 > [!tip]- Guided Learning
 >
@@ -632,7 +632,7 @@ With path compression and union by rank optimizations, operations run in nearly 
 
 ---
 
-## 🔗 Related LeetCode Problems
+## 🔗 Related LeetCode Problems [[README|🏠]]
 
 - [[problems/200/problem|200. Number of Islands]] - Grid connectivity with Union Find
 - **547. Number of Provinces** - Basic connected components
@@ -643,7 +643,7 @@ With path compression and union by rank optimizations, operations run in nearly 
 
 ---
 
-## 🧠 Brain Connections
+## 🧠 Brain Connections [[README|🏠]]
 
 - **Graph Theory** → [[patterns/graphs|Graph Algorithms Pattern]] - Connected components and cycle detection
 - **Disjoint Sets** → Mathematical foundation for equivalence relations
@@ -652,7 +652,7 @@ With path compression and union by rank optimizations, operations run in nearly 
 
 ---
 
-## 🔑 Key Insights
+## 🔑 Key Insights [[README|🏠]]
 
 - 🧠 **Pattern Recognition:** Use when you need to track connectivity, grouping, or equivalence relations dynamically
 - 🔧 **Implementation Choice:** Always use path compression and union by rank/size for optimal performance

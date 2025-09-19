@@ -17,7 +17,7 @@ description: Reverse linked lists or portions of linked lists efficiently using 
 
 # 🔄 In-place Reversal of Linked List
 
-## Overview
+## Overview [[README|🏠]]
 
 The In-place Reversal pattern efficiently reverses linked lists or portions of linked lists using pointer manipulation:
 
@@ -34,7 +34,7 @@ This pattern is fundamental for linked list problems requiring structural modifi
 
 ---
 
-## 🎯 When to Use
+## 🎯 When to Use [[README|🏠]]
 
 > [!success]- Perfect For
 >
@@ -55,7 +55,7 @@ This pattern is fundamental for linked list problems requiring structural modifi
 
 ---
 
-## 💻 Core Implementations
+## 💻 Core Implementations [[README|🏠]]
 
 > [!info]- TypeScript
 >
@@ -224,7 +224,7 @@ This pattern is fundamental for linked list problems requiring structural modifi
 
 ---
 
-## 🧩 Common Problem Patterns
+## 🧩 Common Problem Patterns [[README|🏠]]
 
 > [!example]- Pattern 1: Complete List Reversal
 >
@@ -377,7 +377,7 @@ This pattern is fundamental for linked list problems requiring structural modifi
 
 ---
 
-## ⚡ Performance Analysis
+## ⚡ Performance Analysis [[README|🏠]]
 
 | Operation         | Average | Worst Case | Space | Notes                            |
 | ----------------- | ------- | ---------- | ----- | -------------------------------- |
@@ -396,7 +396,7 @@ This pattern is fundamental for linked list problems requiring structural modifi
 
 ---
 
-## 🔄 Advanced Variations
+## 🔄 Advanced Variations [[README|🏠]]
 
 > [!info]- Variation 1: Recursive Reversal
 >
@@ -428,7 +428,7 @@ This pattern is fundamental for linked list problems requiring structural modifi
 
 ---
 
-## ⚠️ Edge Cases & Gotchas
+## ⚠️ Edge Cases & Gotchas [[README|🏠]]
 
 > [!warning]- Critical Edge Cases
 >
@@ -453,7 +453,7 @@ This pattern is fundamental for linked list problems requiring structural modifi
 
 ---
 
-## 🎯 Practice Exercises
+## 🎯 Practice Exercises [[README|🏠]]
 
 > [!tip]- Guided Learning
 >
@@ -481,7 +481,7 @@ This pattern is fundamental for linked list problems requiring structural modifi
 
 ---
 
-## 🔗 Related LeetCode Problems
+## 🔗 Related LeetCode Problems [[README|🏠]]
 
 - [[problems/206/problem|206. Reverse Linked List]] - Basic linked list reversal
 - **92. Reverse Linked List II** - Reverse sub-list between positions
@@ -492,7 +492,7 @@ This pattern is fundamental for linked list problems requiring structural modifi
 
 ---
 
-## 🧠 Brain Connections
+## 🧠 Brain Connections [[README|🏠]]
 
 - **Fast & Slow Pointers** → [[patterns/fast-and-slow-pointers|Fast & Slow Pointers]] - Finding middle for palindrome check
 - **Two Pointers** → [[patterns/two-pointers|Two Pointers]] - General pointer manipulation techniques
@@ -501,7 +501,7 @@ This pattern is fundamental for linked list problems requiring structural modifi
 
 ---
 
-## 🔑 Key Insights
+## 🔑 Key Insights [[README|🏠]]
 
 - 🧠 **Pattern Recognition:** Use when you need to reverse linked lists or portions while maintaining O(1) space
 - 🔧 **Implementation Choice:** Master three-pointer technique and use dummy nodes for complex scenarios

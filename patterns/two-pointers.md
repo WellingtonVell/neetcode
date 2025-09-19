@@ -17,7 +17,7 @@ description: Uses two pointers to traverse data structures from different positi
 
 # 👆 Two Pointers
 
-## Overview
+## Overview [[README|🏠]]
 
 This pattern uses two pointers to traverse an array or list from different ends or directions, making intelligent decisions based on pointer positions:
 
@@ -34,7 +34,7 @@ This pattern is fundamental for ordered data structures that require efficient t
 
 ---
 
-## 🎯 When to Use
+## 🎯 When to Use [[README|🏠]]
 
 > [!success]- Perfect For
 >
@@ -55,7 +55,7 @@ This pattern is fundamental for ordered data structures that require efficient t
 
 ---
 
-## 💻 Core Implementations
+## 💻 Core Implementations [[README|🏠]]
 
 > [!info]- TypeScript
 >
@@ -169,7 +169,7 @@ This pattern is fundamental for ordered data structures that require efficient t
 
 ---
 
-## 🧩 Common Problem Patterns
+## 🧩 Common Problem Patterns [[README|🏠]]
 
 > [!example]- Pattern 1: Target Sum
 >
@@ -288,7 +288,7 @@ This pattern is fundamental for ordered data structures that require efficient t
 
 ---
 
-## ⚡ Performance Analysis
+## ⚡ Performance Analysis [[README|🏠]]
 
 | Operation         | Average | Worst Case | Space | Notes                              |
 | ----------------- | ------- | ---------- | ----- | ---------------------------------- |
@@ -307,7 +307,7 @@ This pattern is fundamental for ordered data structures that require efficient t
 
 ---
 
-## 🔄 Advanced Variations
+## 🔄 Advanced Variations [[README|🏠]]
 
 > [!info]- Variation 1: Fast and Slow Pointers
 >
@@ -339,7 +339,7 @@ This pattern is fundamental for ordered data structures that require efficient t
 
 ---
 
-## ⚠️ Edge Cases & Gotchas
+## ⚠️ Edge Cases & Gotchas [[README|🏠]]
 
 > [!warning]- Critical Edge Cases
 >
@@ -364,7 +364,7 @@ This pattern is fundamental for ordered data structures that require efficient t
 
 ---
 
-## 🎯 Practice Exercises
+## 🎯 Practice Exercises [[README|🏠]]
 
 > [!tip]- Guided Learning
 >
@@ -392,7 +392,7 @@ This pattern is fundamental for ordered data structures that require efficient t
 
 ---
 
-## 🔗 Related LeetCode Problems
+## 🔗 Related LeetCode Problems [[README|🏠]]
 
 - [[problems/1/problem|1. Two Sum]] - Hash table approach comparison
 - **167. Two Sum II** - Classic two-pointer sorted array problem
@@ -404,7 +404,7 @@ This pattern is fundamental for ordered data structures that require efficient t
 
 ---
 
-## 🧠 Brain Connections
+## 🧠 Brain Connections [[README|🏠]]
 
 - **Sliding Window** → [[patterns/sliding-window|Sliding Window Pattern]] - Both use multiple pointers for range processing
 - **Binary Search** → Similar decision-making based on comparisons
@@ -413,7 +413,7 @@ This pattern is fundamental for ordered data structures that require efficient t
 
 ---
 
-## 🔑 Key Insights
+## 🔑 Key Insights [[README|🏠]]
 
 - 🧠 **Pattern Recognition:** Look for sorted data and pair/range-based requirements
 - 🔧 **Implementation Choice:** Decide between opposite-direction vs same-direction movement

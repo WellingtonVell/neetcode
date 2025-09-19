@@ -17,7 +17,7 @@ description: Use two heaps to efficiently maintain balance and find medians in d
 
 # ⚖️ Two Heaps
 
-## Overview
+## Overview [[README|🏠]]
 
 The Two Heaps pattern uses two priority queues (heaps) to efficiently maintain a balanced partition of data:
 
@@ -34,7 +34,7 @@ This pattern is fundamental for problems requiring dynamic median calculation, b
 
 ---
 
-## 🎯 When to Use
+## 🎯 When to Use [[README|🏠]]
 
 > [!success]- Perfect For
 >
@@ -55,7 +55,7 @@ This pattern is fundamental for problems requiring dynamic median calculation, b
 
 ---
 
-## 💻 Core Implementations
+## 💻 Core Implementations [[README|🏠]]
 
 > [!info]- TypeScript
 >
@@ -274,7 +274,7 @@ This pattern is fundamental for problems requiring dynamic median calculation, b
 
 ---
 
-## 🧩 Common Problem Patterns
+## 🧩 Common Problem Patterns [[README|🏠]]
 
 > [!example]- Pattern 1: Find Median from Data Stream
 >
@@ -457,7 +457,7 @@ This pattern is fundamental for problems requiring dynamic median calculation, b
 
 ---
 
-## ⚡ Performance Analysis
+## ⚡ Performance Analysis [[README|🏠]]
 
 | Operation      | Average    | Worst Case | Space | Notes                        |
 | -------------- | ---------- | ---------- | ----- | ---------------------------- |
@@ -476,7 +476,7 @@ This pattern is fundamental for problems requiring dynamic median calculation, b
 
 ---
 
-## 🔄 Advanced Variations
+## 🔄 Advanced Variations [[README|🏠]]
 
 > [!info]- Variation 1: K-way Heap Partitioning
 >
@@ -508,7 +508,7 @@ This pattern is fundamental for problems requiring dynamic median calculation, b
 
 ---
 
-## ⚠️ Edge Cases & Gotchas
+## ⚠️ Edge Cases & Gotchas [[README|🏠]]
 
 > [!warning]- Critical Edge Cases
 >
@@ -533,7 +533,7 @@ This pattern is fundamental for problems requiring dynamic median calculation, b
 
 ---
 
-## 🎯 Practice Exercises
+## 🎯 Practice Exercises [[README|🏠]]
 
 > [!tip]- Guided Learning
 >
@@ -561,7 +561,7 @@ This pattern is fundamental for problems requiring dynamic median calculation, b
 
 ---
 
-## 🔗 Related LeetCode Problems
+## 🔗 Related LeetCode Problems [[README|🏠]]
 
 - [[problems/295/problem|295. Find Median from Data Stream]] - Classic two heaps median problem
 - **480. Sliding Window Median** - Extend median finding to sliding windows
@@ -572,7 +572,7 @@ This pattern is fundamental for problems requiring dynamic median calculation, b
 
 ---
 
-## 🧠 Brain Connections
+## 🧠 Brain Connections [[README|🏠]]
 
 - **Priority Queues** → Foundation data structure for heap operations
 - **Sliding Window** → [[patterns/sliding-window|Sliding Window Pattern]] - Extension to windowed median
@@ -581,7 +581,7 @@ This pattern is fundamental for problems requiring dynamic median calculation, b
 
 ---
 
-## 🔑 Key Insights
+## 🔑 Key Insights [[README|🏠]]
 
 - 🧠 **Pattern Recognition:** Use when you need dynamic median/percentile calculation or balanced data partitioning
 - 🔧 **Implementation Choice:** Max heap for smaller values, min heap for larger values, maintain balance invariant

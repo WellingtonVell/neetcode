@@ -17,7 +17,7 @@ description: Use heaps and priority queues to efficiently find the K largest, sm
 
 # 🏆 Top K Elements
 
-## Overview
+## Overview [[README|🏠]]
 
 The Top K Elements pattern uses heaps (priority queues) to efficiently find the K largest, smallest, or most frequent elements:
 
@@ -34,7 +34,7 @@ This pattern is essential for ranking, recommendation systems, and real-time ana
 
 ---
 
-## 🎯 When to Use
+## 🎯 When to Use [[README|🏠]]
 
 > [!success]- Perfect For
 >
@@ -55,7 +55,7 @@ This pattern is essential for ranking, recommendation systems, and real-time ana
 
 ---
 
-## 💻 Core Implementations
+## 💻 Core Implementations [[README|🏠]]
 
 > [!info]- TypeScript
 >
@@ -325,7 +325,7 @@ This pattern is essential for ranking, recommendation systems, and real-time ana
 
 ---
 
-## 🧩 Common Problem Patterns
+## 🧩 Common Problem Patterns [[README|🏠]]
 
 > [!example]- Pattern 1: Kth Largest Element in Array
 >
@@ -452,7 +452,7 @@ This pattern is essential for ranking, recommendation systems, and real-time ana
 
 ---
 
-## ⚡ Performance Analysis
+## ⚡ Performance Analysis [[README|🏠]]
 
 | Operation             | Average    | Worst Case | Space    | Notes                       |
 | --------------------- | ---------- | ---------- | -------- | --------------------------- |
@@ -471,7 +471,7 @@ This pattern is essential for ranking, recommendation systems, and real-time ana
 
 ---
 
-## 🔄 Advanced Variations
+## 🔄 Advanced Variations [[README|🏠]]
 
 > [!info]- Variation 1: Sliding Window Maximum
 >
@@ -503,7 +503,7 @@ This pattern is essential for ranking, recommendation systems, and real-time ana
 
 ---
 
-## ⚠️ Edge Cases & Gotchas
+## ⚠️ Edge Cases & Gotchas [[README|🏠]]
 
 > [!warning]- Critical Edge Cases
 >
@@ -529,7 +529,7 @@ This pattern is essential for ranking, recommendation systems, and real-time ana
 
 ---
 
-## 🎯 Practice Exercises
+## 🎯 Practice Exercises [[README|🏠]]
 
 > [!tip]- Guided Learning
 >
@@ -557,7 +557,7 @@ This pattern is essential for ranking, recommendation systems, and real-time ana
 
 ---
 
-## 🔗 Related LeetCode Problems
+## 🔗 Related LeetCode Problems [[README|🏠]]
 
 - [[problems/215/problem|215. Kth Largest Element in an Array]] - Classic heap-based selection
 - **347. Top K Frequent Elements** - Frequency counting with heaps
@@ -568,7 +568,7 @@ This pattern is essential for ranking, recommendation systems, and real-time ana
 
 ---
 
-## 🧠 Brain Connections
+## 🧠 Brain Connections [[README|🏠]]
 
 - **Heap/Priority Queue** → Foundation data structure for efficient extremes
 - **K-way Merge** → [[patterns/k-way-merge|K-way Merge Pattern]] - Related heap coordination for multiple sources
@@ -577,7 +577,7 @@ This pattern is essential for ranking, recommendation systems, and real-time ana
 
 ---
 
-## 🔑 Key Insights
+## 🔑 Key Insights [[README|🏠]]
 
 - 🧠 **Pattern Recognition:** Use when you need top/bottom K elements without full sorting
 - 🔧 **Implementation Choice:** Min heap for K largest, max heap for K smallest; maintain heap size K

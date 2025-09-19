@@ -18,11 +18,9 @@ title: Backtracking
 description: Systematically explore all possible solutions by making choices, exploring consequences, and undoing choices when needed
 ---
 
-[[README|🏠HOME]]
-
 # 🎯 Backtracking
 
-## Overview
+## Overview [[README|🏠]]
 
 The Backtracking pattern systematically explores all possible solutions by making incremental choices and undoing them when they lead to invalid states:
 
@@ -39,7 +37,7 @@ This pattern is essential when you need to explore a solution space exhaustively
 
 ---
 
-## 🎯 When to Use
+## 🎯 When to Use [[README|🏠]]
 
 > [!success]- Perfect For
 >
@@ -60,7 +58,7 @@ This pattern is essential when you need to explore a solution space exhaustively
 
 ---
 
-## 💻 Core Implementations
+## 💻 Core Implementations [[README|🏠]]
 
 > [!info]- TypeScript
 >
@@ -372,7 +370,7 @@ This pattern is essential when you need to explore a solution space exhaustively
 
 ---
 
-## 🧩 Common Problem Patterns
+## 🧩 Common Problem Patterns [[README|🏠]]
 
 > [!example]- Pattern 1: Generate All Permutations
 >
@@ -557,7 +555,7 @@ This pattern is essential when you need to explore a solution space exhaustively
 
 ---
 
-## ⚡ Performance Analysis
+## ⚡ Performance Analysis [[README|🏠]]
 
 | Operation    | Average | Worst Case | Space | Notes                             |
 | ------------ | ------- | ---------- | ----- | --------------------------------- |
@@ -576,7 +574,7 @@ This pattern is essential when you need to explore a solution space exhaustively
 
 ---
 
-## 🔄 Advanced Variations
+## 🔄 Advanced Variations [[README|🏠]]
 
 > [!info]- Variation 1: Iterative Backtracking
 >
@@ -608,7 +606,7 @@ This pattern is essential when you need to explore a solution space exhaustively
 
 ---
 
-## ⚠️ Edge Cases & Gotchas
+## ⚠️ Edge Cases & Gotchas [[README|🏠]]
 
 > [!warning]- Critical Edge Cases
 >
@@ -634,7 +632,7 @@ This pattern is essential when you need to explore a solution space exhaustively
 
 ---
 
-## 🎯 Practice Exercises
+## 🎯 Practice Exercises [[README|🏠]]
 
 > [!tip]- Guided Learning
 >
@@ -662,7 +660,7 @@ This pattern is essential when you need to explore a solution space exhaustively
 
 ---
 
-## 🔗 Related LeetCode Problems
+## 🔗 Related LeetCode Problems [[README|🏠]]
 
 - [[problems/46/problem|46. Permutations]] - Classic backtracking introduction
 - **47. Permutations II** - Handle duplicates in permutations
@@ -673,7 +671,7 @@ This pattern is essential when you need to explore a solution space exhaustively
 
 ---
 
-## 🧠 Brain Connections
+## 🧠 Brain Connections [[README|🏠]]
 
 - **Depth-First Search** → [[patterns/depth-first-search|DFS Pattern]] - Backtracking is DFS with state restoration
 - **Recursion** → Foundation for understanding recursive problem decomposition
@@ -682,7 +680,7 @@ This pattern is essential when you need to explore a solution space exhaustively
 
 ---
 
-## 🔑 Key Insights
+## 🔑 Key Insights [[README|🏠]]
 
 - 🧠 **Pattern Recognition:** Use when you need to explore all possibilities with constraints or generate all valid solutions
 - 🔧 **Implementation Choice:** Master choose-explore-unchoose; invest in efficient constraint checking for pruning

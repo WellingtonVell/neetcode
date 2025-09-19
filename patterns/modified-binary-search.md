@@ -17,7 +17,7 @@ description: Adapt binary search for complex scenarios like rotated arrays, peak
 
 # 🎯 Modified Binary Search
 
-## Overview
+## Overview [[README|🏠]]
 
 The Modified Binary Search pattern adapts the classic binary search algorithm to handle complex search scenarios:
 
@@ -34,7 +34,7 @@ This pattern is fundamental for optimization problems and complex search scenari
 
 ---
 
-## 🎯 When to Use
+## 🎯 When to Use [[README|🏠]]
 
 > [!success]- Perfect For
 >
@@ -55,7 +55,7 @@ This pattern is fundamental for optimization problems and complex search scenari
 
 ---
 
-## 💻 Core Implementations
+## 💻 Core Implementations [[README|🏠]]
 
 > [!info]- TypeScript
 >
@@ -256,7 +256,7 @@ This pattern is fundamental for optimization problems and complex search scenari
 
 ---
 
-## 🧩 Common Problem Patterns
+## 🧩 Common Problem Patterns [[README|🏠]]
 
 > [!example]- Pattern 1: Search in Rotated Sorted Array
 >
@@ -416,7 +416,7 @@ This pattern is fundamental for optimization problems and complex search scenari
 
 ---
 
-## ⚡ Performance Analysis
+## ⚡ Performance Analysis [[README|🏠]]
 
 | Operation             | Average     | Worst Case  | Space | Notes                                      |
 | --------------------- | ----------- | ----------- | ----- | ------------------------------------------ |
@@ -435,7 +435,7 @@ This pattern is fundamental for optimization problems and complex search scenari
 
 ---
 
-## 🔄 Advanced Variations
+## 🔄 Advanced Variations [[README|🏠]]
 
 > [!info]- Variation 1: 2D Matrix Search
 >
@@ -467,7 +467,7 @@ This pattern is fundamental for optimization problems and complex search scenari
 
 ---
 
-## ⚠️ Edge Cases & Gotchas
+## ⚠️ Edge Cases & Gotchas [[README|🏠]]
 
 > [!warning]- Critical Edge Cases
 >
@@ -493,7 +493,7 @@ This pattern is fundamental for optimization problems and complex search scenari
 
 ---
 
-## 🎯 Practice Exercises
+## 🎯 Practice Exercises [[README|🏠]]
 
 > [!tip]- Guided Learning
 >
@@ -521,7 +521,7 @@ This pattern is fundamental for optimization problems and complex search scenari
 
 ---
 
-## 🔗 Related LeetCode Problems
+## 🔗 Related LeetCode Problems [[README|🏠]]
 
 - [[problems/33/problem|33. Search in Rotated Sorted Array]] - Classic rotated array search
 - **81. Search in Rotated Sorted Array II** - With duplicates
@@ -532,7 +532,7 @@ This pattern is fundamental for optimization problems and complex search scenari
 
 ---
 
-## 🧠 Brain Connections
+## 🧠 Brain Connections [[README|🏠]]
 
 - **Binary Search** → Foundation algorithm for all variations
 - **Two Pointers** → [[patterns/two-pointers|Two Pointers Pattern]] - Similar boundary management
@@ -541,7 +541,7 @@ This pattern is fundamental for optimization problems and complex search scenari
 
 ---
 
-## 🔑 Key Insights
+## 🔑 Key Insights [[README|🏠]]
 
 - 🧠 **Pattern Recognition:** Use when data has some sorted property or when answer space can be binary searched
 - 🔧 **Implementation Choice:** Identify the invariant that maintains search direction (sorted half, slope direction, condition)

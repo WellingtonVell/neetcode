@@ -18,7 +18,7 @@ description: Use stacks with monotonic ordering to efficiently solve next greate
 
 # 🏔️ Monotonic Stack
 
-## Overview
+## Overview [[README|🏠]]
 
 The Monotonic Stack pattern uses a stack data structure that maintains elements in monotonic (either strictly increasing or decreasing) order:
 
@@ -35,7 +35,7 @@ This pattern transforms O(n²) brute force solutions into O(n) efficient algorit
 
 ---
 
-## 🎯 When to Use
+## 🎯 When to Use [[README|🏠]]
 
 > [!success]- Perfect For
 >
@@ -56,7 +56,7 @@ This pattern transforms O(n²) brute force solutions into O(n) efficient algorit
 
 ---
 
-## 💻 Core Implementations
+## 💻 Core Implementations [[README|🏠]]
 
 > [!info]- TypeScript
 
@@ -345,7 +345,7 @@ This pattern transforms O(n²) brute force solutions into O(n) efficient algorit
 
 ---
 
-## 🧩 Common Problem Patterns
+## 🧩 Common Problem Patterns [[README|🏠]]
 
 > [!example]- Pattern 1: Next Greater Element
 >
@@ -472,7 +472,7 @@ This pattern transforms O(n²) brute force solutions into O(n) efficient algorit
 
 ---
 
-## ⚡ Performance Analysis
+## ⚡ Performance Analysis [[README|🏠]]
 
 | Problem Type           | Time Complexity | Space Complexity | Notes                           |
 | ---------------------- | --------------- | ---------------- | ------------------------------- |
@@ -491,7 +491,7 @@ This pattern transforms O(n²) brute force solutions into O(n) efficient algorit
 
 ---
 
-## 🔄 Advanced Variations
+## 🔄 Advanced Variations [[README|🏠]]
 
 > [!info]- Variation 1: Monotonic Deque
 >
@@ -523,7 +523,7 @@ This pattern transforms O(n²) brute force solutions into O(n) efficient algorit
 
 ---
 
-## ⚠️ Edge Cases & Gotchas
+## ⚠️ Edge Cases & Gotchas [[README|🏠]]
 
 > [!warning]- Critical Edge Cases
 >
@@ -549,7 +549,7 @@ This pattern transforms O(n²) brute force solutions into O(n) efficient algorit
 
 ---
 
-## 🎯 Practice Exercises
+## 🎯 Practice Exercises [[README|🏠]]
 
 > [!tip]- Guided Learning
 >
@@ -577,7 +577,7 @@ This pattern transforms O(n²) brute force solutions into O(n) efficient algorit
 
 ---
 
-## 🔗 Related LeetCode Problems
+## 🔗 Related LeetCode Problems [[README|🏠]]
 
 - [[problems/496/problem|496. Next Greater Element I]] - Basic monotonic stack introduction
 - **503. Next Greater Element II** - Circular array variation
@@ -588,7 +588,7 @@ This pattern transforms O(n²) brute force solutions into O(n) efficient algorit
 
 ---
 
-## 🧠 Brain Connections
+## 🧠 Brain Connections [[README|🏠]]
 
 - **Stack Data Structure** → Foundation for understanding LIFO operations
 - **Sliding Window** → [[patterns/sliding-window|Sliding Window Pattern]] - Related window optimization technique
@@ -597,7 +597,7 @@ This pattern transforms O(n²) brute force solutions into O(n) efficient algorit
 
 ---
 
-## 🔑 Key Insights
+## 🔑 Key Insights [[README|🏠]]
 
 - 🧠 **Pattern Recognition:** Use when you need next/previous greater/smaller elements or range extremes
 - 🔧 **Implementation Choice:** Choose increasing/decreasing based on what you're looking for; store indices for distances

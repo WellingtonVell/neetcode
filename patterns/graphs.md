@@ -17,7 +17,7 @@ description: Master graph traversal, topological sorting, cycle detection, and d
 
 # 🕸️ Graph Algorithms
 
-## Overview
+## Overview [[README|🏠]]
 
 The Graph Algorithms pattern encompasses fundamental techniques for working with graph data structures:
 
@@ -34,7 +34,7 @@ This pattern is essential for modeling relationships, dependencies, and hierarch
 
 ---
 
-## 🎯 When to Use
+## 🎯 When to Use [[README|🏠]]
 
 > [!success]- Perfect For
 >
@@ -55,7 +55,7 @@ This pattern is essential for modeling relationships, dependencies, and hierarch
 
 ---
 
-## 💻 Core Implementations
+## 💻 Core Implementations [[README|🏠]]
 
 > [!info]- TypeScript
 
@@ -468,7 +468,7 @@ This pattern is essential for modeling relationships, dependencies, and hierarch
 
 ---
 
-## 🧩 Common Problem Patterns
+## 🧩 Common Problem Patterns [[README|🏠]]
 
 > [!example]- Pattern 1: Course Scheduling (Cycle Detection)
 >
@@ -683,7 +683,7 @@ This pattern is essential for modeling relationships, dependencies, and hierarch
 
 ---
 
-## ⚡ Performance Analysis
+## ⚡ Performance Analysis [[README|🏠]]
 
 | Algorithm                     | Time Complexity | Space Complexity | Notes                            |
 | ----------------------------- | --------------- | ---------------- | -------------------------------- |
@@ -702,7 +702,7 @@ This pattern is essential for modeling relationships, dependencies, and hierarch
 
 ---
 
-## 🔄 Advanced Variations
+## 🔄 Advanced Variations [[README|🏠]]
 
 > [!info]- Variation 1: Strongly Connected Components
 >
@@ -734,7 +734,7 @@ This pattern is essential for modeling relationships, dependencies, and hierarch
 
 ---
 
-## ⚠️ Edge Cases & Gotchas
+## ⚠️ Edge Cases & Gotchas [[README|🏠]]
 
 > [!warning]- Critical Edge Cases
 >
@@ -760,7 +760,7 @@ This pattern is essential for modeling relationships, dependencies, and hierarch
 
 ---
 
-## 🎯 Practice Exercises
+## 🎯 Practice Exercises [[README|🏠]]
 
 > [!tip]- Guided Learning
 >
@@ -788,7 +788,7 @@ This pattern is essential for modeling relationships, dependencies, and hierarch
 
 ---
 
-## 🔗 Related LeetCode Problems
+## 🔗 Related LeetCode Problems [[README|🏠]]
 
 - [[problems/207/problem|207. Course Schedule]] - Basic cycle detection with Kahn's algorithm
 - **210. Course Schedule II** - Topological ordering with dependency resolution
@@ -799,7 +799,7 @@ This pattern is essential for modeling relationships, dependencies, and hierarch
 
 ---
 
-## 🧠 Brain Connections
+## 🧠 Brain Connections [[README|🏠]]
 
 - **Breadth-First Search** → [[patterns/breadth-first-search|BFS Pattern]] - Kahn's algorithm uses BFS traversal
 - **Depth-First Search** → [[patterns/depth-first-search|DFS Pattern]] - DFS-based topological sort and cycle detection
@@ -808,7 +808,7 @@ This pattern is essential for modeling relationships, dependencies, and hierarch
 
 ---
 
-## 🔑 Key Insights
+## 🔑 Key Insights [[README|🏠]]
 
 - 🧠 **Pattern Recognition:** Use when dealing with dependencies, prerequisites, or ordering constraints
 - 🔧 **Implementation Choice:** Kahn's algorithm for BFS approach, DFS for recursion-based solutions with cycle detection

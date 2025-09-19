@@ -17,7 +17,7 @@ description: Generate all possible subsets, permutations, and combinations using
 
 # 🌀 Subsets
 
-## Overview
+## Overview [[README|🏠]]
 
 The Subsets pattern systematically generates all possible combinations of elements using recursive backtracking:
 
@@ -34,7 +34,7 @@ This pattern is fundamental for combinatorial problems requiring exhaustive enum
 
 ---
 
-## 🎯 When to Use
+## 🎯 When to Use [[README|🏠]]
 
 > [!success]- Perfect For
 >
@@ -55,7 +55,7 @@ This pattern is fundamental for combinatorial problems requiring exhaustive enum
 
 ---
 
-## 💻 Core Implementations
+## 💻 Core Implementations [[README|🏠]]
 
 > [!info]- TypeScript
 >
@@ -235,7 +235,7 @@ This pattern is fundamental for combinatorial problems requiring exhaustive enum
 
 ---
 
-## 🧩 Common Problem Patterns
+## 🧩 Common Problem Patterns [[README|🏠]]
 
 > [!example]- Pattern 1: Generate All Subsets (Powerset)
 >
@@ -377,7 +377,7 @@ This pattern is fundamental for combinatorial problems requiring exhaustive enum
 
 ---
 
-## ⚡ Performance Analysis
+## ⚡ Performance Analysis [[README|🏠]]
 
 | Operation             | Average     | Worst Case  | Space     | Notes                                      |
 | --------------------- | ----------- | ----------- | --------- | ------------------------------------------ |
@@ -396,7 +396,7 @@ This pattern is fundamental for combinatorial problems requiring exhaustive enum
 
 ---
 
-## 🔄 Advanced Variations
+## 🔄 Advanced Variations [[README|🏠]]
 
 > [!info]- Variation 1: Iterative Generation
 >
@@ -428,7 +428,7 @@ This pattern is fundamental for combinatorial problems requiring exhaustive enum
 
 ---
 
-## ⚠️ Edge Cases & Gotchas
+## ⚠️ Edge Cases & Gotchas [[README|🏠]]
 
 > [!warning]- Critical Edge Cases
 >
@@ -453,7 +453,7 @@ This pattern is fundamental for combinatorial problems requiring exhaustive enum
 
 ---
 
-## 🎯 Practice Exercises
+## 🎯 Practice Exercises [[README|🏠]]
 
 > [!tip]- Guided Learning
 >
@@ -481,7 +481,7 @@ This pattern is fundamental for combinatorial problems requiring exhaustive enum
 
 ---
 
-## 🔗 Related LeetCode Problems
+## 🔗 Related LeetCode Problems [[README|🏠]]
 
 - [[problems/78/problem|78. Subsets]] - Basic subset generation
 - **90. Subsets II** - Subsets with duplicate elements
@@ -492,7 +492,7 @@ This pattern is fundamental for combinatorial problems requiring exhaustive enum
 
 ---
 
-## 🧠 Brain Connections
+## 🧠 Brain Connections [[README|🏠]]
 
 - **Backtracking** → [[patterns/backtracking|Backtracking Pattern]] - Core algorithmic approach
 - **Depth First Search** → [[patterns/depth-first-search|DFS Pattern]] - Tree traversal foundation
@@ -501,7 +501,7 @@ This pattern is fundamental for combinatorial problems requiring exhaustive enum
 
 ---
 
-## 🔑 Key Insights
+## 🔑 Key Insights [[README|🏠]]
 
 - 🧠 **Pattern Recognition:** Use when you need to generate all possible combinations, subsets, or permutations
 - 🔧 **Implementation Choice:** Choose start index for subsets/combinations, used array for permutations

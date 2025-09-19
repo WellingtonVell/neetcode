@@ -17,7 +17,7 @@ description: Efficiently merge K sorted data structures using heaps to maintain 
 
 # 🌊 K-way Merge
 
-## Overview
+## Overview [[README|🏠]]
 
 The K-way Merge pattern efficiently combines multiple sorted data structures using priority queues (heaps):
 
@@ -34,7 +34,7 @@ This pattern excels at maintaining order while processing multiple sorted inputs
 
 ---
 
-## 🎯 When to Use
+## 🎯 When to Use [[README|🏠]]
 
 > [!success]- Perfect For
 >
@@ -55,7 +55,7 @@ This pattern excels at maintaining order while processing multiple sorted inputs
 
 ---
 
-## 💻 Core Implementations
+## 💻 Core Implementations [[README|🏠]]
 
 > [!info]- TypeScript
 
@@ -431,7 +431,7 @@ This pattern excels at maintaining order while processing multiple sorted inputs
 
 ---
 
-## 🧩 Common Problem Patterns
+## 🧩 Common Problem Patterns [[README|🏠]]
 
 > [!example]- Pattern 1: Merge K Sorted Lists
 >
@@ -584,7 +584,7 @@ This pattern excels at maintaining order while processing multiple sorted inputs
 
 ---
 
-## ⚡ Performance Analysis
+## ⚡ Performance Analysis [[README|🏠]]
 
 | Problem Type           | Time Complexity   | Space Complexity | Notes                                |
 | ---------------------- | ----------------- | ---------------- | ------------------------------------ |
@@ -603,7 +603,7 @@ This pattern excels at maintaining order while processing multiple sorted inputs
 
 ---
 
-## 🔄 Advanced Variations
+## 🔄 Advanced Variations [[README|🏠]]
 
 > [!info]- Variation 1: External Merge Sort
 >
@@ -635,7 +635,7 @@ This pattern excels at maintaining order while processing multiple sorted inputs
 
 ---
 
-## ⚠️ Edge Cases & Gotchas
+## ⚠️ Edge Cases & Gotchas [[README|🏠]]
 
 > [!warning]- Critical Edge Cases
 >
@@ -661,7 +661,7 @@ This pattern excels at maintaining order while processing multiple sorted inputs
 
 ---
 
-## 🎯 Practice Exercises
+## 🎯 Practice Exercises [[README|🏠]]
 
 > [!tip]- Guided Learning
 >
@@ -689,7 +689,7 @@ This pattern excels at maintaining order while processing multiple sorted inputs
 
 ---
 
-## 🔗 Related LeetCode Problems
+## 🔗 Related LeetCode Problems [[README|🏠]]
 
 - [[problems/23/problem|23. Merge k Sorted Lists]] - Classic K-way merge with linked lists
 - **373. Find K Pairs with Smallest Sums** - Systematic pair generation
@@ -700,7 +700,7 @@ This pattern excels at maintaining order while processing multiple sorted inputs
 
 ---
 
-## 🧠 Brain Connections
+## 🧠 Brain Connections [[README|🏠]]
 
 - **Top K Elements** → [[patterns/top-k-element|Top K Elements Pattern]] - Related heap-based selection problems
 - **Two Heaps** → [[patterns/two-heaps|Two Heaps Pattern]] - Advanced heap coordination techniques
@@ -709,7 +709,7 @@ This pattern excels at maintaining order while processing multiple sorted inputs
 
 ---
 
-## 🔑 Key Insights
+## 🔑 Key Insights [[README|🏠]]
 
 - 🧠 **Pattern Recognition:** Use when you need to merge or find optimal elements across multiple sorted sources
 - 🔧 **Implementation Choice:** Heap-based coordination maintains global order while processing only necessary elements

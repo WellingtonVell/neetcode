@@ -25,7 +25,7 @@ description: Break down complex problems into simpler subproblems, storing solut
 
 # 🧠 Dynamic Programming
 
-## Overview
+## Overview [[README|🏠]]
 
 Dynamic Programming systematically breaks down complex problems into simpler overlapping subproblems and stores their solutions:
 
@@ -42,7 +42,7 @@ This pattern transforms exponential recursive solutions into polynomial time alg
 
 ---
 
-## 🎯 When to Use
+## 🎯 When to Use [[README|🏠]]
 
 > [!success]- Perfect For
 >
@@ -63,7 +63,7 @@ This pattern transforms exponential recursive solutions into polynomial time alg
 
 ---
 
-## 💻 Core Implementations
+## 💻 Core Implementations [[README|🏠]]
 
 > [!info]- TypeScript
 
@@ -374,7 +374,7 @@ This pattern transforms exponential recursive solutions into polynomial time alg
 
 ---
 
-## 🧩 Common Problem Patterns
+## 🧩 Common Problem Patterns [[README|🏠]]
 
 > [!example]- Pattern 1: Linear DP (1D State)
 >
@@ -485,7 +485,7 @@ This pattern transforms exponential recursive solutions into polynomial time alg
 
 ---
 
-## ⚡ Performance Analysis
+## ⚡ Performance Analysis [[README|🏠]]
 
 | Problem Type      | Time Complexity | Space Complexity | Space Optimized | Notes                   |
 | ----------------- | --------------- | ---------------- | --------------- | ----------------------- |
@@ -504,7 +504,7 @@ This pattern transforms exponential recursive solutions into polynomial time alg
 
 ---
 
-## 🔄 Advanced Variations
+## 🔄 Advanced Variations [[README|🏠]]
 
 > [!info]- Variation 1: State Machine DP
 >
@@ -536,7 +536,7 @@ This pattern transforms exponential recursive solutions into polynomial time alg
 
 ---
 
-## ⚠️ Edge Cases & Gotchas
+## ⚠️ Edge Cases & Gotchas [[README|🏠]]
 
 > [!warning]- Critical Edge Cases
 >
@@ -561,7 +561,7 @@ This pattern transforms exponential recursive solutions into polynomial time alg
 
 ---
 
-## 🎯 Practice Exercises
+## 🎯 Practice Exercises [[README|🏠]]
 
 > [!tip]- Guided Learning
 >
@@ -589,7 +589,7 @@ This pattern transforms exponential recursive solutions into polynomial time alg
 
 ---
 
-## 🔗 Related LeetCode Problems
+## 🔗 Related LeetCode Problems [[README|🏠]]
 
 - [[problems/70/problem|70. Climbing Stairs]] - Basic 1D DP introduction
 - **322. Coin Change** - Classic unbounded knapsack DP
@@ -600,7 +600,7 @@ This pattern transforms exponential recursive solutions into polynomial time alg
 
 ---
 
-## 🧠 Brain Connections
+## 🧠 Brain Connections [[README|🏠]]
 
 - **Recursion** → Foundation for understanding problem decomposition and memoization
 - **Backtracking** → [[patterns/backtracking|Backtracking Pattern]] - DP optimizes certain backtracking problems
@@ -609,7 +609,7 @@ This pattern transforms exponential recursive solutions into polynomial time alg
 
 ---
 
-## 🔑 Key Insights
+## 🔑 Key Insights [[README|🏠]]
 
 - 🧠 **Pattern Recognition:** Look for optimal/count problems with overlapping subproblems and optimal substructure
 - 🔧 **Implementation Choice:** Start with memoization for clarity, optimize to tabulation for performance

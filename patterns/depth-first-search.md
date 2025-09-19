@@ -17,7 +17,7 @@ description: Traverse trees and graphs depth-wise using recursion or stack for s
 
 # 🌲 Tree Depth First Search
 
-## Overview
+## Overview [[README|🏠]]
 
 The Tree Depth First Search (DFS) pattern explores trees and graphs by going as deep as possible before backtracking:
 
@@ -34,7 +34,7 @@ This pattern is fundamental for tree and graph problems requiring path analysis,
 
 ---
 
-## 🎯 When to Use
+## 🎯 When to Use [[README|🏠]]
 
 > [!success]- Perfect For
 >
@@ -55,7 +55,7 @@ This pattern is fundamental for tree and graph problems requiring path analysis,
 
 ---
 
-## 💻 Core Implementations
+## 💻 Core Implementations [[README|🏠]]
 
 > [!info]- TypeScript
 >
@@ -223,7 +223,7 @@ This pattern is fundamental for tree and graph problems requiring path analysis,
 
 ---
 
-## 🧩 Common Problem Patterns
+## 🧩 Common Problem Patterns [[README|🏠]]
 
 > [!example]- Pattern 1: Binary Tree Path Sum
 >
@@ -341,7 +341,7 @@ This pattern is fundamental for tree and graph problems requiring path analysis,
 
 ---
 
-## ⚡ Performance Analysis
+## ⚡ Performance Analysis [[README|🏠]]
 
 | Operation      | Average | Worst Case | Space | Notes                          |
 | -------------- | ------- | ---------- | ----- | ------------------------------ |
@@ -360,7 +360,7 @@ This pattern is fundamental for tree and graph problems requiring path analysis,
 
 ---
 
-## 🔄 Advanced Variations
+## 🔄 Advanced Variations [[README|🏠]]
 
 > [!info]- Variation 1: Iterative DFS with Stack
 >
@@ -392,7 +392,7 @@ This pattern is fundamental for tree and graph problems requiring path analysis,
 
 ---
 
-## ⚠️ Edge Cases & Gotchas
+## ⚠️ Edge Cases & Gotchas [[README|🏠]]
 
 > [!warning]- Critical Edge Cases
 >
@@ -417,7 +417,7 @@ This pattern is fundamental for tree and graph problems requiring path analysis,
 
 ---
 
-## 🎯 Practice Exercises
+## 🎯 Practice Exercises [[README|🏠]]
 
 > [!tip]- Guided Learning
 >
@@ -445,7 +445,7 @@ This pattern is fundamental for tree and graph problems requiring path analysis,
 
 ---
 
-## 🔗 Related LeetCode Problems
+## 🔗 Related LeetCode Problems [[README|🏠]]
 
 - [[problems/112/problem|112. Path Sum]] - Basic root-to-leaf path sum
 - **113. Path Sum II** - Find all root-to-leaf paths with target sum
@@ -456,7 +456,7 @@ This pattern is fundamental for tree and graph problems requiring path analysis,
 
 ---
 
-## 🧠 Brain Connections
+## 🧠 Brain Connections [[README|🏠]]
 
 - **Breadth First Search** → [[patterns/breadth-first-search|BFS Pattern]] - Alternative tree traversal approach
 - **Backtracking** → [[patterns/backtracking|Backtracking Pattern]] - DFS naturally supports backtracking
@@ -465,7 +465,7 @@ This pattern is fundamental for tree and graph problems requiring path analysis,
 
 ---
 
-## 🔑 Key Insights
+## 🔑 Key Insights [[README|🏠]]
 
 - 🧠 **Pattern Recognition:** Use when you need to explore paths, analyze subtrees, or calculate tree properties recursively
 - 🔧 **Implementation Choice:** Choose recursion for simplicity, iteration for deep trees or stack constraints

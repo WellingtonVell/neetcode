@@ -17,7 +17,7 @@ description: Traverse trees and graphs level by level using queues for systemati
 
 # 🌳 Tree Breadth First Search
 
-## Overview
+## Overview [[README|🏠]]
 
 The Tree Breadth First Search (BFS) pattern systematically explores trees and graphs level by level using a queue:
 
@@ -34,7 +34,7 @@ This pattern is fundamental for tree and graph problems requiring level-wise pro
 
 ---
 
-## 🎯 When to Use
+## 🎯 When to Use [[README|🏠]]
 
 > [!success]- Perfect For
 >
@@ -55,7 +55,7 @@ This pattern is fundamental for tree and graph problems requiring level-wise pro
 
 ---
 
-## 💻 Core Implementations
+## 💻 Core Implementations [[README|🏠]]
 
 > [!info]- TypeScript
 >
@@ -252,7 +252,7 @@ This pattern is fundamental for tree and graph problems requiring level-wise pro
 
 ---
 
-## 🧩 Common Problem Patterns
+## 🧩 Common Problem Patterns [[README|🏠]]
 
 > [!example]- Pattern 1: Level Order Traversal
 >
@@ -402,7 +402,7 @@ This pattern is fundamental for tree and graph problems requiring level-wise pro
 
 ---
 
-## ⚡ Performance Analysis
+## ⚡ Performance Analysis [[README|🏠]]
 
 | Operation             | Average | Worst Case | Space | Notes                                     |
 | --------------------- | ------- | ---------- | ----- | ----------------------------------------- |
@@ -421,7 +421,7 @@ This pattern is fundamental for tree and graph problems requiring level-wise pro
 
 ---
 
-## 🔄 Advanced Variations
+## 🔄 Advanced Variations [[README|🏠]]
 
 > [!info]- Variation 1: Multi-source BFS
 >
@@ -453,7 +453,7 @@ This pattern is fundamental for tree and graph problems requiring level-wise pro
 
 ---
 
-## ⚠️ Edge Cases & Gotchas
+## ⚠️ Edge Cases & Gotchas [[README|🏠]]
 
 > [!warning]- Critical Edge Cases
 >
@@ -478,7 +478,7 @@ This pattern is fundamental for tree and graph problems requiring level-wise pro
 
 ---
 
-## 🎯 Practice Exercises
+## 🎯 Practice Exercises [[README|🏠]]
 
 > [!tip]- Guided Learning
 >
@@ -506,7 +506,7 @@ This pattern is fundamental for tree and graph problems requiring level-wise pro
 
 ---
 
-## 🔗 Related LeetCode Problems
+## 🔗 Related LeetCode Problems [[README|🏠]]
 
 - [[problems/102/problem|102. Binary Tree Level Order Traversal]] - Basic BFS traversal
 - **103. Binary Tree Zigzag Level Order Traversal** - Direction-alternating traversal
@@ -517,7 +517,7 @@ This pattern is fundamental for tree and graph problems requiring level-wise pro
 
 ---
 
-## 🧠 Brain Connections
+## 🧠 Brain Connections [[README|🏠]]
 
 - **Depth First Search** → [[patterns/depth-first-search|DFS Pattern]] - Alternative tree traversal approach
 - **Queue Data Structure** → Foundation for BFS implementation
@@ -526,7 +526,7 @@ This pattern is fundamental for tree and graph problems requiring level-wise pro
 
 ---
 
-## 🔑 Key Insights
+## 🔑 Key Insights [[README|🏠]]
 
 - 🧠 **Pattern Recognition:** Use when you need level-wise processing, shortest paths, or minimum depth/distance
 - 🔧 **Implementation Choice:** Always capture queue size before processing each level to maintain level boundaries

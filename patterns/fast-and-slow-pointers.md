@@ -17,7 +17,7 @@ description: Two pointers moving at different speeds to detect cycles, find midd
 
 # 🐢 Fast & Slow Pointers
 
-## Overview
+## Overview [[README|🏠]]
 
 The Fast & Slow Pointers pattern uses two pointers that traverse a data structure at different speeds to solve problems efficiently:
 
@@ -34,7 +34,7 @@ This pattern is fundamental for linked list problems that require detecting patt
 
 ---
 
-## 🎯 When to Use
+## 🎯 When to Use [[README|🏠]]
 
 > [!success]- Perfect For
 >
@@ -55,7 +55,7 @@ This pattern is fundamental for linked list problems that require detecting patt
 
 ---
 
-## 💻 Core Implementations
+## 💻 Core Implementations [[README|🏠]]
 
 > [!info]- TypeScript
 >
@@ -192,7 +192,7 @@ This pattern is fundamental for linked list problems that require detecting patt
 
 ---
 
-## 🧩 Common Problem Patterns
+## 🧩 Common Problem Patterns [[README|🏠]]
 
 > [!example]- Pattern 1: Cycle Detection (Floyd's Algorithm)
 >
@@ -306,7 +306,7 @@ This pattern is fundamental for linked list problems that require detecting patt
 
 ---
 
-## ⚡ Performance Analysis
+## ⚡ Performance Analysis [[README|🏠]]
 
 | Operation           | Average | Worst Case | Space | Notes                          |
 | ------------------- | ------- | ---------- | ----- | ------------------------------ |
@@ -325,7 +325,7 @@ This pattern is fundamental for linked list problems that require detecting patt
 
 ---
 
-## 🔄 Advanced Variations
+## 🔄 Advanced Variations [[README|🏠]]
 
 > [!info]- Variation 1: Happy Number Detection
 >
@@ -357,7 +357,7 @@ This pattern is fundamental for linked list problems that require detecting patt
 
 ---
 
-## ⚠️ Edge Cases & Gotchas
+## ⚠️ Edge Cases & Gotchas [[README|🏠]]
 
 > [!warning]- Critical Edge Cases
 >
@@ -382,7 +382,7 @@ This pattern is fundamental for linked list problems that require detecting patt
 
 ---
 
-## 🎯 Practice Exercises
+## 🎯 Practice Exercises [[README|🏠]]
 
 > [!tip]- Guided Learning
 >
@@ -410,7 +410,7 @@ This pattern is fundamental for linked list problems that require detecting patt
 
 ---
 
-## 🔗 Related LeetCode Problems
+## 🔗 Related LeetCode Problems [[README|🏠]]
 
 - [[problems/141/problem|141. Linked List Cycle]] - Basic cycle detection
 - **142. Linked List Cycle II** - Find where cycle begins
@@ -422,7 +422,7 @@ This pattern is fundamental for linked list problems that require detecting patt
 
 ---
 
-## 🧠 Brain Connections
+## 🧠 Brain Connections [[README|🏠]]
 
 - **Two Pointers** → [[patterns/two-pointers|Two Pointers Pattern]] - Related pointer manipulation technique
 - **Linked Lists** → Core data structure for this pattern
@@ -431,7 +431,7 @@ This pattern is fundamental for linked list problems that require detecting patt
 
 ---
 
-## 🔑 Key Insights
+## 🔑 Key Insights [[README|🏠]]
 
 - 🧠 **Pattern Recognition:** Use when you need to detect cycles, find middle elements, or solve linked list problems with O(1) space
 - 🔧 **Implementation Choice:** Always maintain proper null checking and consider using dummy nodes for edge cases

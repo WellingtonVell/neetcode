@@ -17,7 +17,7 @@ description: Sort arrays containing numbers in a known range using their values 
 
 # 🔄 Cyclic Sort
 
-## Overview
+## Overview [[README|🏠]]
 
 The Cyclic Sort pattern efficiently sorts arrays containing numbers in a known range by placing each number at its correct index position:
 
@@ -34,7 +34,7 @@ This pattern is fundamental for problems involving arrays with numbers in a spec
 
 ---
 
-## 🎯 When to Use
+## 🎯 When to Use [[README|🏠]]
 
 > [!success]- Perfect For
 >
@@ -55,7 +55,7 @@ This pattern is fundamental for problems involving arrays with numbers in a spec
 
 ---
 
-## 💻 Core Implementations
+## 💻 Core Implementations [[README|🏠]]
 
 > [!info]- TypeScript
 >
@@ -198,7 +198,7 @@ This pattern is fundamental for problems involving arrays with numbers in a spec
 
 ---
 
-## 🧩 Common Problem Patterns
+## 🧩 Common Problem Patterns [[README|🏠]]
 
 > [!example]- Pattern 1: Missing Number in Sequence
 >
@@ -328,7 +328,7 @@ This pattern is fundamental for problems involving arrays with numbers in a spec
 
 ---
 
-## ⚡ Performance Analysis
+## ⚡ Performance Analysis [[README|🏠]]
 
 | Operation              | Average | Worst Case | Space | Notes                             |
 | ---------------------- | ------- | ---------- | ----- | --------------------------------- |
@@ -347,7 +347,7 @@ This pattern is fundamental for problems involving arrays with numbers in a spec
 
 ---
 
-## 🔄 Advanced Variations
+## 🔄 Advanced Variations [[README|🏠]]
 
 > [!info]- Variation 1: Modified Ranges
 >
@@ -379,7 +379,7 @@ This pattern is fundamental for problems involving arrays with numbers in a spec
 
 ---
 
-## ⚠️ Edge Cases & Gotchas
+## ⚠️ Edge Cases & Gotchas [[README|🏠]]
 
 > [!warning]- Critical Edge Cases
 >
@@ -404,7 +404,7 @@ This pattern is fundamental for problems involving arrays with numbers in a spec
 
 ---
 
-## 🎯 Practice Exercises
+## 🎯 Practice Exercises [[README|🏠]]
 
 > [!tip]- Guided Learning
 >
@@ -432,7 +432,7 @@ This pattern is fundamental for problems involving arrays with numbers in a spec
 
 ---
 
-## 🔗 Related LeetCode Problems
+## 🔗 Related LeetCode Problems [[README|🏠]]
 
 - [[problems/268/problem|268. Missing Number]] - Basic missing number in range [0, n]
 - **287. Find the Duplicate Number** - Single duplicate in range [1, n]
@@ -443,7 +443,7 @@ This pattern is fundamental for problems involving arrays with numbers in a spec
 
 ---
 
-## 🧠 Brain Connections
+## 🧠 Brain Connections [[README|🏠]]
 
 - **Hash Tables** → Alternative approach for duplicate/missing problems with O(n) space
 - **Binary Search** → Can solve some variants with O(log n) space but O(n log n) time
@@ -453,7 +453,7 @@ This pattern is fundamental for problems involving arrays with numbers in a spec
 
 ---
 
-## 🔑 Key Insights
+## 🔑 Key Insights [[README|🏠]]
 
 - 🧠 **Pattern Recognition:** Use when array contains numbers in a known range and you need O(n) time with O(1) space
 - 🔧 **Implementation Choice:** Map values to indices using the relationship `index = value - range_start`

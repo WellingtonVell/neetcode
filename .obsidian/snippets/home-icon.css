@@ -1,0 +1,17 @@
+.markdown-preview-view h1:has(a[href*="README"]),
+.markdown-preview-view h2:has(a[href*="README"]),
+.markdown-preview-view h3:has(a[href*="README"]),
+.markdown-preview-view h4:has(a[href*="README"]),
+.markdown-preview-view h5:has(a[href*="README"]),
+.markdown-preview-view h6:has(a[href*="README"]) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.markdown-preview-view a[href*="README"] {
+  font-size: 1.2em;
+  text-decoration: none;
+  color: var(--text-accent);
+  transition: color 0.2s ease;
+}

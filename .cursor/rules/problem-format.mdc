@@ -25,19 +25,13 @@ related_problems: [XXX, YYY, ZZZ]
 ---
 ```
 
-### 2. Navigation Link
+### 2. Problem Title
 
 ```markdown
-[[README|🏠HOME]]
+# XXX. [leetcode_id. Problem Title](https://leetcode.com/problems/problem-slug/description/) [[README|🏠]]
 ```
 
-### 3. Problem Title
-
-```markdown
-# XXX. [Problem Title](https://leetcode.com/problems/problem-slug/description/)
-```
-
-### 4. Problem Statement Section
+### 3. Problem Statement Section
 
 ```markdown
 ## 📝 Problem Statement
@@ -47,7 +41,7 @@ related_problems: [XXX, YYY, ZZZ]
 ---
 ```
 
-### 5. Examples (Using Obsidian Callouts)
+### 4. Examples (Using Obsidian Callouts)
 
 ```markdown
 > [!example]- Example 1
@@ -65,7 +59,7 @@ related_problems: [XXX, YYY, ZZZ]
 > [Same format as Example 1]
 ```
 
-### 6. Constraints (Using Warning Callout)
+### 5. Constraints (Using Warning Callout)
 
 ```markdown
 > [!warning]- Constraints
@@ -75,7 +69,7 @@ related_problems: [XXX, YYY, ZZZ]
 > - Constraint 3
 ```
 
-### 7. Optional Follow Up
+### 6. Optional Follow Up
 
 ```markdown
 > [!info]- Follow Up (Optional)
@@ -85,12 +79,12 @@ related_problems: [XXX, YYY, ZZZ]
 > **Answer:** Answer to follow up
 ```
 
-### 8. Solutions Section
+### 7. Solutions Section
 
 ```markdown
 ---
 
-## 🛠️ Solutions
+## 🛠️ Solutions [[README|🏠]]
 
 ### Approach 1: [Approach Name]
 
@@ -105,12 +99,12 @@ related_problems: [XXX, YYY, ZZZ]
 - **Pattern:** Pattern description
 ```
 
-### 9. Key Insights Section
+### 8. Key Insights Section
 
 ```markdown
 ---
 
-## 🔑 Key Insights
+## 🔑 Key Insights [[README|🏠]]
 
 - 🧠 **Pattern Recognition:** [Insight about pattern recognition]
 - 🔧 **Data Structure:** [Insight about data structures used]
@@ -118,12 +112,12 @@ related_problems: [XXX, YYY, ZZZ]
 - 🎯 **Edge Cases:** [Important edge cases to consider]
 ```
 
-#### 10. 💻 Implementations
+#### 9. 💻 Implementations
 
 ```markdown
 ---
 
-#### 💻 Implementations
+#### 💻 Implementations [[README|🏠]]
 
 ![[folder-path/problem-id/solve.ts#TypeScript Solution]]
 
@@ -151,7 +145,7 @@ related_problems: [XXX, YYY, ZZZ]
 
    - Use `[[internal-links]]` for internal navigation
    - Use standard markdown links for external LeetCode URLs
-   - Include home navigation at the top: `[[README|🏠HOME]]`
+   - Include home navigation at keys points: `[[README|🏠]]`
 
 5. **Code Blocks:** Use backticks for inline code and proper embedding syntax for solution files
 

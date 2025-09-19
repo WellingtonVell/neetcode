@@ -9,9 +9,7 @@ companies: [facebook, amazon, microsoft, google]
 related_problems: [217, 49, 438]
 ---
 
-[[README|🏠HOME]]
-
-# 242. [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)
+# [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/description/) [[README|🏠]]
 
 ## 📝 Problem Statement
 
@@ -48,7 +46,7 @@ Given two strings `s` and `t`, return `true` if `t` is an anagram of `s`, and `f
 
 ---
 
-## 🛠️ Solutions
+## 🛠️ Solutions [[README|🏠]]
 
 ### Approach 1: Character Frequency Count (Hash Map)
 
@@ -62,7 +60,7 @@ Given two strings `s` and `t`, return `true` if `t` is an anagram of `s`, and `f
 - **Space Complexity:** O(1) - if sorting in place
 - **Pattern:** Transform to canonical form
 
-## 🔑 Key Insights
+## 🔑 Key Insights [[README|🏠]]
 
 - 🧠 **Pattern Recognition:** Anagram problems = character frequency matching
 - 🔧 **Data Structure:** Hash map for character counting
@@ -71,7 +69,7 @@ Given two strings `s` and `t`, return `true` if `t` is an anagram of `s`, and `f
 
 ---
 
-#### 💻 Implementations
+#### 💻 Implementations [[README|🏠]]
 
 ![[problems/242/solve.ts#TypeScript Solution]]
 

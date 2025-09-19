@@ -15,11 +15,9 @@ title: PATTERN_NAME
 description: BRIEF_DESCRIPTION
 ---
 
-[[README|🏠HOME]]
-
 # EMOJI PATTERN_NAME
 
-## Overview
+## Overview [[README|🏠]]
 
 Brief description of what this pattern provides and its main benefits:
 
@@ -34,7 +32,7 @@ This pattern is fundamental for [specific problem types] that require [specific 
 
 ---
 
-## 🎯 When to Use
+## 🎯 When to Use [[README|🏠]]
 
 > [!success]- Perfect For
 >
@@ -55,7 +53,7 @@ This pattern is fundamental for [specific problem types] that require [specific 
 
 ---
 
-## 💻 Core Implementations
+## 💻 Core Implementations [[README|🏠]]
 
 > [!info]- TypeScript
 >
@@ -115,7 +113,7 @@ This pattern is fundamental for [specific problem types] that require [specific 
 
 ---
 
-## 🧩 Common Problem Patterns
+## 🧩 Common Problem Patterns [[README|🏠]]
 
 > [!example]- Pattern 1: PATTERN_NAME
 >
@@ -171,7 +169,7 @@ This pattern is fundamental for [specific problem types] that require [specific 
 
 ---
 
-## ⚡ Performance Analysis
+## ⚡ Performance Analysis [[README|🏠]]
 
 | Operation  | Average | Worst Case | Space | Notes             |
 | ---------- | ------- | ---------- | ----- | ----------------- |
@@ -190,7 +188,7 @@ This pattern is fundamental for [specific problem types] that require [specific 
 
 ---
 
-## 🔄 Advanced Variations
+## 🔄 Advanced Variations [[README|🏠]]
 
 > [!info]- Variation 1: VARIATION_NAME
 >
@@ -222,7 +220,7 @@ This pattern is fundamental for [specific problem types] that require [specific 
 
 ---
 
-## ⚠️ Edge Cases & Gotchas
+## ⚠️ Edge Cases & Gotchas [[README|🏠]]
 
 > [!warning]- Critical Edge Cases
 >
@@ -247,7 +245,7 @@ This pattern is fundamental for [specific problem types] that require [specific 
 
 ---
 
-## 🎯 Practice Exercises
+## 🎯 Practice Exercises [[README|🏠]]
 
 > [!tip]- Guided Learning
 >
@@ -275,7 +273,7 @@ This pattern is fundamental for [specific problem types] that require [specific 
 
 ---
 
-## 🔗 Related LeetCode Problems
+## 🔗 Related LeetCode Problems [[README|🏠]]
 
 - [[problems/NUMBER/problem|NUMBER. Problem Title]] - Pattern application
 - **NUMBER. Problem Title** - Related concept
@@ -287,7 +285,7 @@ This pattern is fundamental for [specific problem types] that require [specific 
 
 ---
 
-## 🧠 Brain Connections
+## 🧠 Brain Connections [[README|🏠]]
 
 - **Related Pattern 1** → [[patterns/pattern-name|Pattern Name]] - Connection description
 - **Related Pattern 2** → Connection to another pattern
@@ -296,7 +294,7 @@ This pattern is fundamental for [specific problem types] that require [specific 
 
 ---
 
-## 🔑 Key Insights
+## 🔑 Key Insights [[README|🏠]]
 
 - 🧠 **Pattern Recognition:** When and why to use this pattern
 - 🔧 **Implementation Choice:** Key decisions in implementation

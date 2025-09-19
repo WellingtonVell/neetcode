@@ -17,7 +17,7 @@ description: Traverses 2D grids to find connected components like islands or reg
 
 # 🏝️ Matrix Traversal
 
-## Overview
+## Overview [[README|🏠]]
 
 This pattern involves traversing a 2D matrix to find connected components, "islands," or contiguous groups of elements:
 
@@ -34,7 +34,7 @@ This pattern is fundamental for grid-based problems that require grouping connec
 
 ---
 
-## 🎯 When to Use
+## 🎯 When to Use [[README|🏠]]
 
 > [!success]- Perfect For
 >
@@ -55,7 +55,7 @@ This pattern is fundamental for grid-based problems that require grouping connec
 
 ---
 
-## 💻 Core Implementations
+## 💻 Core Implementations [[README|🏠]]
 
 > [!info]- TypeScript
 >
@@ -207,7 +207,7 @@ This pattern is fundamental for grid-based problems that require grouping connec
 
 ---
 
-## 🧩 Common Problem Patterns
+## 🧩 Common Problem Patterns [[README|🏠]]
 
 > [!example]- Pattern 1: Number of Islands
 >
@@ -409,7 +409,7 @@ This pattern is fundamental for grid-based problems that require grouping connec
 
 ---
 
-## ⚡ Performance Analysis
+## ⚡ Performance Analysis [[README|🏠]]
 
 | Operation     | Average | Worst Case | Space  | Notes                                |
 | ------------- | ------- | ---------- | ------ | ------------------------------------ |
@@ -428,7 +428,7 @@ This pattern is fundamental for grid-based problems that require grouping connec
 
 ---
 
-## 🔄 Advanced Variations
+## 🔄 Advanced Variations [[README|🏠]]
 
 > [!info]- Variation 1: 8-Directional Traversal
 >
@@ -460,7 +460,7 @@ This pattern is fundamental for grid-based problems that require grouping connec
 
 ---
 
-## ⚠️ Edge Cases & Gotchas
+## ⚠️ Edge Cases & Gotchas [[README|🏠]]
 
 > [!warning]- Critical Edge Cases
 >
@@ -485,7 +485,7 @@ This pattern is fundamental for grid-based problems that require grouping connec
 
 ---
 
-## 🎯 Practice Exercises
+## 🎯 Practice Exercises [[README|🏠]]
 
 > [!tip]- Guided Learning
 >
@@ -513,7 +513,7 @@ This pattern is fundamental for grid-based problems that require grouping connec
 
 ---
 
-## 🔗 Related LeetCode Problems
+## 🔗 Related LeetCode Problems [[README|🏠]]
 
 - [[problems/200/problem|200. Number of Islands]] - Classic island counting problem
 - **695. Max Area of Island** - Find largest connected component
@@ -525,7 +525,7 @@ This pattern is fundamental for grid-based problems that require grouping connec
 
 ---
 
-## 🧠 Brain Connections
+## 🧠 Brain Connections [[README|🏠]]
 
 - **Graph Traversal** → [[patterns/graph-traversal|Graph Traversal Pattern]] - Matrix is a special case of graph
 - **Backtracking** → [[patterns/backtracking|Backtracking Pattern]] - Used in word search problems
@@ -534,7 +534,7 @@ This pattern is fundamental for grid-based problems that require grouping connec
 
 ---
 
-## 🔑 Key Insights
+## 🔑 Key Insights [[README|🏠]]
 
 - 🧠 **Pattern Recognition:** Look for connected components or region-based operations in 2D grids
 - 🔧 **Implementation Choice:** Choose DFS for simplicity, BFS for level-by-level processing or shortest paths

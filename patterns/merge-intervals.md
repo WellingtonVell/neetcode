@@ -17,7 +17,7 @@ description: Efficiently merge overlapping intervals and solve interval-based sc
 
 # 📊 Merge Intervals
 
-## Overview
+## Overview [[README|🏠]]
 
 The Merge Intervals pattern handles problems involving overlapping time intervals, ranges, or sequences efficiently:
 
@@ -34,7 +34,7 @@ This pattern is fundamental for problems involving time-based scheduling, range 
 
 ---
 
-## 🎯 When to Use
+## 🎯 When to Use [[README|🏠]]
 
 > [!success]- Perfect For
 >
@@ -55,7 +55,7 @@ This pattern is fundamental for problems involving time-based scheduling, range 
 
 ---
 
-## 💻 Core Implementations
+## 💻 Core Implementations [[README|🏠]]
 
 > [!info]- TypeScript
 >
@@ -165,7 +165,7 @@ This pattern is fundamental for problems involving time-based scheduling, range 
 
 ---
 
-## 🧩 Common Problem Patterns
+## 🧩 Common Problem Patterns [[README|🏠]]
 
 > [!example]- Pattern 1: Basic Interval Merging
 >
@@ -309,7 +309,7 @@ This pattern is fundamental for problems involving time-based scheduling, range 
 
 ---
 
-## ⚡ Performance Analysis
+## ⚡ Performance Analysis [[README|🏠]]
 
 | Operation        | Average    | Worst Case | Space       | Notes                                |
 | ---------------- | ---------- | ---------- | ----------- | ------------------------------------ |
@@ -328,7 +328,7 @@ This pattern is fundamental for problems involving time-based scheduling, range 
 
 ---
 
-## 🔄 Advanced Variations
+## 🔄 Advanced Variations [[README|🏠]]
 
 > [!info]- Variation 1: Interval Tree
 >
@@ -360,7 +360,7 @@ This pattern is fundamental for problems involving time-based scheduling, range 
 
 ---
 
-## ⚠️ Edge Cases & Gotchas
+## ⚠️ Edge Cases & Gotchas [[README|🏠]]
 
 > [!warning]- Critical Edge Cases
 >
@@ -385,7 +385,7 @@ This pattern is fundamental for problems involving time-based scheduling, range 
 
 ---
 
-## 🎯 Practice Exercises
+## 🎯 Practice Exercises [[README|🏠]]
 
 > [!tip]- Guided Learning
 >
@@ -413,7 +413,7 @@ This pattern is fundamental for problems involving time-based scheduling, range 
 
 ---
 
-## 🔗 Related LeetCode Problems
+## 🔗 Related LeetCode Problems [[README|🏠]]
 
 - [[problems/56/problem|56. Merge Intervals]] - Basic interval merging pattern
 - **57. Insert Interval** - Insert into sorted interval list
@@ -425,7 +425,7 @@ This pattern is fundamental for problems involving time-based scheduling, range 
 
 ---
 
-## 🧠 Brain Connections
+## 🧠 Brain Connections [[README|🏠]]
 
 - **Sorting Algorithms** → Foundation for most interval algorithms
 - **Greedy Algorithms** → Many optimal interval solutions use greedy approaches
@@ -435,7 +435,7 @@ This pattern is fundamental for problems involving time-based scheduling, range 
 
 ---
 
-## 🔑 Key Insights
+## 🔑 Key Insights [[README|🏠]]
 
 - 🧠 **Pattern Recognition:** Use when dealing with overlapping ranges, scheduling, or time-based conflicts
 - 🔧 **Implementation Choice:** Sort by start time for merging, by end time for greedy optimization

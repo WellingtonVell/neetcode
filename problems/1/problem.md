@@ -3,15 +3,13 @@ title: Two Sum
 leetcode_id: 1
 difficulty: Easy
 category: Arrays & Hashing
-status: draft
+status: solved
 tags: [array, hash-table]
 companies: [Google, Amazon, Microsoft, Apple, Facebook, Uber, Adobe]
 related_problems: [15, 18, 167, 170, 653, 1099, 1213, 1498, 1711, 2006]
 ---
 
-[[README|🏠HOME]]
-
-# 1. [Two Sum](https://leetcode.com/problems/two-sum/description/)
+# [1. Two Sum](https://leetcode.com/problems/two-sum/description/) [[README|🏠]]
 
 ## 📝 Problem Statement
 
@@ -71,7 +69,7 @@ You can return the answer in any order.
 
 ---
 
-## 🛠️ Solutions
+## 🛠️ Solutions [[README|🏠]]
 
 ### Approach 1: Brute Force
 
@@ -87,7 +85,7 @@ You can return the answer in any order.
 
 ---
 
-## 🔑 Key Insights
+## 🔑 Key Insights [[README|🏠]]
 
 - 🧠 **Pattern Recognition:** This is a classic "complement" problem - for each number, we need to find its complement (target - current number)
 - 🔧 **Data Structure:** Hash map is perfect for O(1) lookup of complements
@@ -96,7 +94,7 @@ You can return the answer in any order.
 
 ---
 
-## 💻 Implementations
+## 💻 Implementations [[README|🏠]]
 
 ![[problems/1/solve.ts#TypeScript Solution]]
 

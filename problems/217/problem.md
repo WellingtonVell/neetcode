@@ -9,9 +9,7 @@ companies: [google, amazon, microsoft]
 related_problems: [242, 1, 49]
 ---
 
-[[README|🏠HOME]]
-
-# 217. [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/)
+# [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/) [[README|🏠]]
 
 ## 📝 Problem Statement
 
@@ -56,7 +54,7 @@ Given an integer array `nums`, return `true` if any value appears **at least twi
 
 ---
 
-## 🛠️ Solutions
+## 🛠️ Solutions [[README|🏠]]
 
 ### Approach 1: Hash Set (Optimal)
 
@@ -64,7 +62,7 @@ Given an integer array `nums`, return `true` if any value appears **at least twi
 - **Space Complexity:** O(n)
 - **Pattern:** Hash Set for duplicate detection
 
-## 🔑 Key Insights
+## 🔑 Key Insights [[README|🏠]]
 
 - 🧠 **Pattern Recognition:** Classic duplicate detection problem
 - 🔧 **Data Structure:** Hash Set provides O(1) average lookup time
@@ -73,7 +71,7 @@ Given an integer array `nums`, return `true` if any value appears **at least twi
 
 ---
 
-#### 💻 Implementations
+#### 💻 Implementations [[README|🏠]]
 
 ![[problems/217/solve.ts#TypeScript Solution]]
 

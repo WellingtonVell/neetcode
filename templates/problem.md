@@ -9,9 +9,7 @@ companies: [{ { COMPANY_1 } }, { { COMPANY_2 } }, { { COMPANY_3 } }]
 related_problems: [{ { RELATED_1 } }, { { RELATED_2 } }, { { RELATED_3 } }]
 ---
 
-[[README|🏠HOME]]
-
-# {{LEETCODE_ID}}. [{{PROBLEM_TITLE}}](https://leetcode.com/problems/{{PROBLEM_SLUG}}/description/)
+# {{LEETCODE_ID}}. [{{PROBLEM_TITLE}}](https://leetcode.com/problems/{{PROBLEM_SLUG}}/description/) [[README|🏠]]
 
 ## 📝 Problem Statement
 
@@ -55,7 +53,7 @@ related_problems: [{ { RELATED_1 } }, { { RELATED_2 } }, { { RELATED_3 } }]
 
 ---
 
-## 🛠️ Solutions
+## 🛠️ Solutions [[README|🏠]]
 
 ### Approach 1: {{APPROACH_1_NAME}}
 
@@ -69,7 +67,7 @@ related_problems: [{ { RELATED_1 } }, { { RELATED_2 } }, { { RELATED_3 } }]
 - **Space Complexity:** O({{SPACE_COMPLEXITY_2}})
 - **Pattern:** {{PATTERN_DESCRIPTION_2}}
 
-## 🔑 Key Insights
+## 🔑 Key Insights [[README|🏠]]
 
 - 🧠 **Pattern Recognition:** {{PATTERN_INSIGHT}}
 - 🔧 **Data Structure:** {{DATA_STRUCTURE_INSIGHT}}
@@ -78,7 +76,7 @@ related_problems: [{ { RELATED_1 } }, { { RELATED_2 } }, { { RELATED_3 } }]
 
 ---
 
-#### 💻 Implementations
+#### 💻 Implementations [[README|🏠]]
 
 ![[{{FOLDER_PATH}}/{{LEETCODE_ID}}/solve.ts#TypeScript Solution]]
 

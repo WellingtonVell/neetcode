@@ -25,7 +25,7 @@ description: Design thread-safe algorithms and coordinate multiple threads using
 
 # ⚙️ Multi-threaded
 
-## Overview
+## Overview [[README|🏠]]
 
 The Multi-threaded pattern involves designing algorithms that execute safely across multiple threads with proper synchronization:
 
@@ -42,7 +42,7 @@ This pattern is essential for building high-performance applications that can ut
 
 ---
 
-## 🎯 When to Use
+## 🎯 When to Use [[README|🏠]]
 
 > [!success]- Perfect For
 >
@@ -64,7 +64,7 @@ This pattern is essential for building high-performance applications that can ut
 
 ---
 
-## 💻 Core Implementations
+## 💻 Core Implementations [[README|🏠]]
 
 > [!info]- TypeScript
 
@@ -505,7 +505,7 @@ This pattern is essential for building high-performance applications that can ut
 
 ---
 
-## 🧩 Common Problem Patterns
+## 🧩 Common Problem Patterns [[README|🏠]]
 
 > [!example]- Pattern 1: Sequential Execution Control
 >
@@ -758,7 +758,7 @@ This pattern is essential for building high-performance applications that can ut
 
 ---
 
-## ⚡ Performance Analysis
+## ⚡ Performance Analysis [[README|🏠]]
 
 | Pattern              | Time Complexity    | Space Complexity | Contention Level | Notes                                |
 | -------------------- | ------------------ | ---------------- | ---------------- | ------------------------------------ |
@@ -777,7 +777,7 @@ This pattern is essential for building high-performance applications that can ut
 
 ---
 
-## 🔄 Advanced Variations
+## 🔄 Advanced Variations [[README|🏠]]
 
 > [!info]- Variation 1: Lock-Free Data Structures
 >
@@ -809,7 +809,7 @@ This pattern is essential for building high-performance applications that can ut
 
 ---
 
-## ⚠️ Edge Cases & Gotchas
+## ⚠️ Edge Cases & Gotchas [[README|🏠]]
 
 > [!warning]- Critical Edge Cases
 >
@@ -835,7 +835,7 @@ This pattern is essential for building high-performance applications that can ut
 
 ---
 
-## 🎯 Practice Exercises
+## 🎯 Practice Exercises [[README|🏠]]
 
 > [!tip]- Guided Learning
 >
@@ -863,7 +863,7 @@ This pattern is essential for building high-performance applications that can ut
 
 ---
 
-## 🔗 Related LeetCode Problems
+## 🔗 Related LeetCode Problems [[README|🏠]]
 
 - [[problems/1114/problem|1114. Print in Order]] - Basic thread synchronization
 - **1115. Print FooBar Alternately** - Two-thread coordination
@@ -874,7 +874,7 @@ This pattern is essential for building high-performance applications that can ut
 
 ---
 
-## 🧠 Brain Connections
+## 🧠 Brain Connections [[README|🏠]]
 
 - **Operating Systems** → Fundamental concepts of threads, locks, and scheduling
 - **Distributed Systems** → Scale concurrency concepts to multiple machines
@@ -883,7 +883,7 @@ This pattern is essential for building high-performance applications that can ut
 
 ---
 
-## 🔑 Key Insights
+## 🔑 Key Insights [[README|🏠]]
 
 - 🧠 **Pattern Recognition:** Use when you need to coordinate multiple threads or parallelize independent tasks
 - 🔧 **Implementation Choice:** Choose synchronization primitives based on access patterns and performance requirements

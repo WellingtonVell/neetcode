@@ -17,7 +17,7 @@ description: Use XOR properties to solve problems with duplicates, missing numbe
 
 # ⚡ Bitwise XOR
 
-## Overview
+## Overview [[README|🏠]]
 
 The Bitwise XOR pattern leverages the unique mathematical properties of the XOR operation to solve complex problems elegantly:
 
@@ -34,7 +34,7 @@ This pattern is powerful because XOR has unique properties: `a ⊕ a = 0`, `a �
 
 ---
 
-## 🎯 When to Use
+## 🎯 When to Use [[README|🏠]]
 
 > [!success]- Perfect For
 >
@@ -55,7 +55,7 @@ This pattern is powerful because XOR has unique properties: `a ⊕ a = 0`, `a �
 
 ---
 
-## 💻 Core Implementations
+## 💻 Core Implementations [[README|🏠]]
 
 > [!info]- TypeScript
 >
@@ -244,7 +244,7 @@ This pattern is powerful because XOR has unique properties: `a ⊕ a = 0`, `a �
 
 ---
 
-## 🧩 Common Problem Patterns
+## 🧩 Common Problem Patterns [[README|🏠]]
 
 > [!example]- Pattern 1: Single Number in Array of Pairs
 >
@@ -354,7 +354,7 @@ This pattern is powerful because XOR has unique properties: `a ⊕ a = 0`, `a �
 
 ---
 
-## ⚡ Performance Analysis
+## ⚡ Performance Analysis [[README|🏠]]
 
 | Operation          | Average   | Worst Case | Space | Notes                           |
 | ------------------ | --------- | ---------- | ----- | ------------------------------- |
@@ -373,7 +373,7 @@ This pattern is powerful because XOR has unique properties: `a ⊕ a = 0`, `a �
 
 ---
 
-## 🔄 Advanced Variations
+## 🔄 Advanced Variations [[README|🏠]]
 
 > [!info]- Variation 1: XOR Linked List
 >
@@ -405,7 +405,7 @@ This pattern is powerful because XOR has unique properties: `a ⊕ a = 0`, `a �
 
 ---
 
-## ⚠️ Edge Cases & Gotchas
+## ⚠️ Edge Cases & Gotchas [[README|🏠]]
 
 > [!warning]- Critical Edge Cases
 >
@@ -431,7 +431,7 @@ This pattern is powerful because XOR has unique properties: `a ⊕ a = 0`, `a �
 
 ---
 
-## 🎯 Practice Exercises
+## 🎯 Practice Exercises [[README|🏠]]
 
 > [!tip]- Guided Learning
 >
@@ -459,7 +459,7 @@ This pattern is powerful because XOR has unique properties: `a ⊕ a = 0`, `a �
 
 ---
 
-## 🔗 Related LeetCode Problems
+## 🔗 Related LeetCode Problems [[README|🏠]]
 
 - [[problems/136/problem|136. Single Number]] - Classic XOR elimination problem
 - **137. Single Number II** - Advanced single number with triples
@@ -470,7 +470,7 @@ This pattern is powerful because XOR has unique properties: `a ⊕ a = 0`, `a �
 
 ---
 
-## 🧠 Brain Connections
+## 🧠 Brain Connections [[README|🏠]]
 
 - **Bit Manipulation** → Foundation for understanding binary operations
 - **Cyclic Sort** → [[patterns/cyclic-sort|Cyclic Sort Pattern]] - Alternative approach for finding missing/duplicate numbers
@@ -479,7 +479,7 @@ This pattern is powerful because XOR has unique properties: `a ⊕ a = 0`, `a �
 
 ---
 
-## 🔑 Key Insights
+## 🔑 Key Insights [[README|🏠]]
 
 - 🧠 **Pattern Recognition:** Use when dealing with pairs, duplicates, or missing elements in specific contexts
 - 🔧 **Implementation Choice:** XOR provides O(1) space solutions for problems that typically need O(n) space
