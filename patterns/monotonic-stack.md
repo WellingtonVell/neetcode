@@ -14,8 +14,6 @@ title: Monotonic Stack
 description: Use stacks with monotonic ordering to efficiently solve next greater/smaller element problems and optimize range queries
 ---
 
-[[README|🏠HOME]]
-
 # 🏔️ Monotonic Stack
 
 ## Overview [[README|🏠]]
@@ -603,5 +601,3 @@ This pattern transforms O(n²) brute force solutions into O(n) efficient algorit
 - 🔧 **Implementation Choice:** Choose increasing/decreasing based on what you're looking for; store indices for distances
 - ⚡ **Performance:** Transforms O(n²) nested loops into O(n) single-pass algorithms through intelligent state maintenance
 - 🎯 **Edge Cases:** Handle boundaries with sentinel values; test with monotonic and uniform arrays
-
----

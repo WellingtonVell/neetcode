@@ -1,9 +1,9 @@
 ---
 title: Two Sum
 leetcode_id: 1
-difficulty: Easy
+difficulty: 🟢
 category: Arrays & Hashing
-status: solved
+status: ✔️
 tags: [array, hash-table]
 companies: [Google, Amazon, Microsoft, Apple, Facebook, Uber, Adobe]
 related_problems: [15, 18, 167, 170, 653, 1099, 1213, 1498, 1711, 2006]

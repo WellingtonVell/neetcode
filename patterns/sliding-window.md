@@ -13,8 +13,6 @@ title: Sliding Window
 description: Create a window over data and slide it to find optimal subarrays or substrings efficiently
 ---
 
-[[README|🏠HOME]]
-
 # 🪟 Sliding Window
 
 ## Overview [[README|🏠]]
@@ -439,5 +437,3 @@ This pattern is fundamental for array and string problems that involve finding c
 - 🔧 **Implementation Choice:** Choose fixed window for constant size problems, variable window for condition-based problems
 - ⚡ **Performance:** Transforms O(n²) brute force solutions to O(n) by avoiding redundant calculations
 - 🎯 **Edge Cases:** Always validate window size, handle empty inputs, and consider numeric overflow in sum-based problems
-
----

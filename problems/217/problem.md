@@ -1,9 +1,9 @@
 ---
 title: Contains Duplicate
 leetcode_id: 217
-difficulty: Easy
+difficulty: 🟢
 category: Arrays & Hashing
-status: solved
+status: ✔️
 tags: [sorting, array, hash-table]
 companies: [google, amazon, microsoft]
 related_problems: [242, 1, 49]

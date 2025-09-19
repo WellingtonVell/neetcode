@@ -13,8 +13,6 @@ title: Two Heaps
 description: Use two heaps to efficiently maintain balance and find medians in dynamic data streams
 ---
 
-[[README|🏠HOME]]
-
 # ⚖️ Two Heaps
 
 ## Overview [[README|🏠]]
@@ -587,5 +585,3 @@ This pattern is fundamental for problems requiring dynamic median calculation, b
 - 🔧 **Implementation Choice:** Max heap for smaller values, min heap for larger values, maintain balance invariant
 - ⚡ **Performance:** O(log n) insertion with O(1) median access, but O(n) removal makes sliding windows challenging
 - 🎯 **Edge Cases:** Handle empty heaps, single elements, duplicates, and maintain proper heap size balance
-
----

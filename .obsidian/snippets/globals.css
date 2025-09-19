@@ -1,0 +1,46 @@
+.theme-dark .markdown-preview-view code:not(pre code) {
+  background-color: #856a91;
+  color: #fff;
+  padding: 0 0.25rem;
+  border-radius: 21px;
+}
+
+.theme-dark .markdown-preview-view a {
+  color: #00ffcc;
+  text-decoration: underline;
+  text-decoration-color: #00ffcc;
+}
+.theme-dark .markdown-preview-view a:hover {
+  color: #f08381;
+  text-decoration-color: #00ffcc;
+}
+
+.callout:is([data-callout-metadata^="noicon"]) .callout-icon {
+  display: none;
+  //* Adds metadata to callouts to remove the default icon *//
+}
+
+.callout:is([data-callout-metadata^="icon"]) .callout-icon {
+  display: flex;
+  //* Adds metadata to display default icons on nested callouts that use "noicon" metadata *//
+}
+
+.markdown-preview-view h1:has(a[href*="README"]),
+.markdown-preview-view h2:has(a[href*="README"]),
+.markdown-preview-view h3:has(a[href*="README"]),
+.markdown-preview-view h4:has(a[href*="README"]),
+.markdown-preview-view h5:has(a[href*="README"]),
+.markdown-preview-view h6:has(a[href*="README"]) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  //* Justify between on headers when having a 🏠 navigation *//
+}
+
+.markdown-preview-view a[href*="README"] {
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+.markdown-preview-view a[href*="README"]:hover {
+  text-decoration: none;
+}

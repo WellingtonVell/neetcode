@@ -1,9 +1,9 @@
 ---
 title: Valid Anagram
 leetcode_id: 242
-difficulty: Easy
+difficulty: 🟢
 category: Arrays & Hashing
-status: solved
+status: ✔️
 tags: [hash-table, sorting, string]
 companies: [facebook, amazon, microsoft, google]
 related_problems: [217, 49, 438]

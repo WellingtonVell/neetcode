@@ -13,8 +13,6 @@ title: Bitwise XOR
 description: Use XOR properties to solve problems with duplicates, missing numbers, and bit manipulation elegantly
 ---
 
-[[README|🏠HOME]]
-
 # ⚡ Bitwise XOR
 
 ## Overview [[README|🏠]]
@@ -485,5 +483,3 @@ This pattern is powerful because XOR has unique properties: `a ⊕ a = 0`, `a �
 - 🔧 **Implementation Choice:** XOR provides O(1) space solutions for problems that typically need O(n) space
 - ⚡ **Performance:** Bit operations are extremely fast and space-efficient
 - 🎯 **Edge Cases:** Master XOR properties and bit manipulation fundamentals; watch for signed integer behavior
-
----

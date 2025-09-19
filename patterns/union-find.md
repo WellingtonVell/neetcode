@@ -13,8 +13,6 @@ title: Union Find
 description: Efficiently track connectivity and grouping using disjoint sets with path compression and union by rank optimizations
 ---
 
-[[README|🏠HOME]]
-
 # 🔗 Union Find
 
 ## Overview [[README|🏠]]
@@ -658,5 +656,3 @@ With path compression and union by rank optimizations, operations run in nearly 
 - 🔧 **Implementation Choice:** Always use path compression and union by rank/size for optimal performance
 - ⚡ **Performance:** Nearly constant time operations make it ideal for dynamic connectivity problems
 - 🎯 **Edge Cases:** Handle self-loops, invalid indices, and maintain component counts correctly during operations
-
----

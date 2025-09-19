@@ -13,8 +13,6 @@ title: Matrix Traversal
 description: Traverses 2D grids to find connected components like islands or regions using DFS/BFS
 ---
 
-[[README|🏠HOME]]
-
 # 🏝️ Matrix Traversal
 
 ## Overview [[README|🏠]]
@@ -540,5 +538,3 @@ This pattern is fundamental for grid-based problems that require grouping connec
 - 🔧 **Implementation Choice:** Choose DFS for simplicity, BFS for level-by-level processing or shortest paths
 - ⚡ **Performance:** Consider iterative solutions to avoid stack overflow on large connected regions
 - 🎯 **Edge Cases:** Always validate grid boundaries and handle empty grids gracefully
-
----

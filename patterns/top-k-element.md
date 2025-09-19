@@ -13,8 +13,6 @@ title: Top K Elements
 description: Use heaps and priority queues to efficiently find the K largest, smallest, or most frequent elements
 ---
 
-[[README|🏠HOME]]
-
 # 🏆 Top K Elements
 
 ## Overview [[README|🏠]]
@@ -583,5 +581,3 @@ This pattern is essential for ranking, recommendation systems, and real-time ana
 - 🔧 **Implementation Choice:** Min heap for K largest, max heap for K smallest; maintain heap size K
 - ⚡ **Performance:** O(n log k) is better than O(n log n) sorting when k << n
 - 🎯 **Edge Cases:** Handle invalid K values, empty inputs, and memory constraints in streaming scenarios
-
----

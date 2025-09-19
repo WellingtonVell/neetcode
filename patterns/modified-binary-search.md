@@ -13,8 +13,6 @@ title: Modified Binary Search
 description: Adapt binary search for complex scenarios like rotated arrays, peak finding, and search space problems
 ---
 
-[[README|🏠HOME]]
-
 # 🎯 Modified Binary Search
 
 ## Overview [[README|🏠]]
@@ -547,5 +545,3 @@ This pattern is fundamental for optimization problems and complex search scenari
 - 🔧 **Implementation Choice:** Identify the invariant that maintains search direction (sorted half, slope direction, condition)
 - ⚡ **Performance:** Maintains O(log n) complexity through careful condition design and search space reduction
 - 🎯 **Edge Cases:** Handle rotations, duplicates, and boundary conditions; ensure condition functions are monotonic
-
----

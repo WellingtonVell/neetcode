@@ -21,8 +21,6 @@ title: Dynamic Programming
 description: Break down complex problems into simpler subproblems, storing solutions to avoid redundant calculations
 ---
 
-[[README|🏠HOME]]
-
 # 🧠 Dynamic Programming
 
 ## Overview [[README|🏠]]
@@ -615,5 +613,3 @@ This pattern transforms exponential recursive solutions into polynomial time alg
 - 🔧 **Implementation Choice:** Start with memoization for clarity, optimize to tabulation for performance
 - ⚡ **Performance:** Transform exponential recursive solutions to polynomial time through intelligent state storage
 - 🎯 **Edge Cases:** Master state definition, base cases, and transition formulas; consider space optimization opportunities
-
----

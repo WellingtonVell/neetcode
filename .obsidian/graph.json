@@ -1,22 +1,51 @@
 {
   "collapse-filter": true,
   "search": "",
-  "showTags": false,
-  "showAttachments": false,
-  "hideUnresolved": false,
+  "showTags": true,
+  "showAttachments": true,
+  "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": false,
-  "colorGroups": [],
-  "collapse-display": false,
-  "showArrow": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "file:problem",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "file:README",
+      "color": {
+        "a": 1,
+        "rgb": 16711901
+      }
+    },
+    {
+      "query": "[\"type\":\"pattern-guide\"]",
+      "color": {
+        "a": 1,
+        "rgb": 2370549
+      }
+    },
+    {
+      "query": "[\"type\":\"concept-guide\"]",
+      "color": {
+        "a": 1,
+        "rgb": 14385333
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
   "textFadeMultiplier": -3,
-  "nodeSizeMultiplier": 1.96302083333333,
+  "nodeSizeMultiplier": 0.993229166666667,
   "lineSizeMultiplier": 1.01875,
-  "collapse-forces": false,
-  "centerStrength": 0.518713248970312,
+  "collapse-forces": true,
+  "centerStrength": 0.802083333333333,
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.508761885579263,
+  "scale": 0.3628873693012172,
   "close": false
 }

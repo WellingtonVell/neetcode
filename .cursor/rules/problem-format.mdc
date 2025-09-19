@@ -16,9 +16,9 @@ All `problem.md` files must follow the standardized template format defined in [
 ---
 title: Problem Title
 leetcode_id: XXX
-difficulty: Easy|Medium|Hard
+difficulty: 🟢|🟡|🔴|💀
 category: Arrays & Hashing|Two Pointers|etc
-status: draft|in-progress|solved|needs-review
+status: 🗒️|👣|✔️|🔍
 tags: [tag1, tag2]
 companies: [company1, company2, company3]
 related_problems: [XXX, YYY, ZZZ]

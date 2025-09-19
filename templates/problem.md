@@ -1,15 +1,22 @@
+<!--
+This section is intentionally included to prevent this template file from being indexed as a real pattern.
+Please do not remove or modify this comment unless you are updating the template's visibility logic.
+-->
+
 ---
+
 title: { { PROBLEM_TITLE } }
 leetcode_id: { { LEETCODE_ID } }
-difficulty: { { DIFFICULTY } }
+difficulty: { { DIFFICULTY } } # 🟢|🟡|🔴|💀
 category: { { CATEGORY } }
-status: { { STATUS } } # draft|in-progress|solved|needs-review
+status: { { STATUS } } # 🗒️|👣|✔️|🔍
 tags: [{ { TAGS } }]
 companies: [{ { COMPANY_1 } }, { { COMPANY_2 } }, { { COMPANY_3 } }]
 related_problems: [{ { RELATED_1 } }, { { RELATED_2 } }, { { RELATED_3 } }]
+
 ---
 
-# {{LEETCODE_ID}}. [{{PROBLEM_TITLE}}](https://leetcode.com/problems/{{PROBLEM_SLUG}}/description/) [[README|🏠]]
+# [{{LEETCODE_ID}}. {{PROBLEM_TITLE}}](https://leetcode.com/problems/{{PROBLEM_SLUG}}/description/) [[README|🏠]]
 
 ## 📝 Problem Statement
 

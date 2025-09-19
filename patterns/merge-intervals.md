@@ -13,8 +13,6 @@ title: Merge Intervals
 description: Efficiently merge overlapping intervals and solve interval-based scheduling problems
 ---
 
-[[README|🏠HOME]]
-
 # 📊 Merge Intervals
 
 ## Overview [[README|🏠]]
@@ -441,5 +439,3 @@ This pattern is fundamental for problems involving time-based scheduling, range 
 - 🔧 **Implementation Choice:** Sort by start time for merging, by end time for greedy optimization
 - ⚡ **Performance:** Most problems are O(n log n) due to sorting, with O(n) processing after
 - 🎯 **Edge Cases:** Always consider touching intervals, nested ranges, and boundary conditions
-
----

@@ -13,8 +13,6 @@ title: Cyclic Sort
 description: Sort arrays containing numbers in a known range using their values as indices for O(n) time and O(1) space
 ---
 
-[[README|🏠HOME]]
-
 # 🔄 Cyclic Sort
 
 ## Overview [[README|🏠]]
@@ -459,5 +457,3 @@ This pattern is fundamental for problems involving arrays with numbers in a spec
 - 🔧 **Implementation Choice:** Map values to indices using the relationship `index = value - range_start`
 - ⚡ **Performance:** Achieves linear time by ensuring each element is swapped to its final position at most once
 - 🎯 **Edge Cases:** Always validate range bounds and handle duplicate values to prevent infinite loops
-
----

@@ -21,8 +21,6 @@ title: Multi-threaded
 description: Design thread-safe algorithms and coordinate multiple threads using synchronization primitives for concurrent execution
 ---
 
-[[README|🏠HOME]]
-
 # ⚙️ Multi-threaded
 
 ## Overview [[README|🏠]]
@@ -889,5 +887,3 @@ This pattern is essential for building high-performance applications that can ut
 - 🔧 **Implementation Choice:** Choose synchronization primitives based on access patterns and performance requirements
 - ⚡ **Performance:** Multi-threading can improve performance but adds complexity and potential for bugs
 - 🎯 **Edge Cases:** Always consider deadlocks, race conditions, and proper resource cleanup in concurrent code
-
----

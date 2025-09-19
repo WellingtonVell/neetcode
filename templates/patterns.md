@@ -1,4 +1,10 @@
+<!--
+This section is intentionally included to prevent this template file from being indexed as a real pattern.
+Please do not remove or modify this comment unless you are updating the template's visibility logic.
+-->
+
 ---
+
 tags: [pattern, PATTERN_TYPE, data-structure, algorithms, CATEGORY]
 aliases: [ALIAS1, ALIAS2, ALIAS3]
 type: pattern-guide
@@ -13,6 +19,7 @@ leetcode_problems: [NUMBER1, NUMBER2, NUMBER3]
 emoji: EMOJI
 title: PATTERN_NAME
 description: BRIEF_DESCRIPTION
+
 ---
 
 # EMOJI PATTERN_NAME

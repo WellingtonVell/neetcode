@@ -13,8 +13,6 @@ title: Tree Depth First Search
 description: Traverse trees and graphs depth-wise using recursion or stack for systematic exploration
 ---
 
-[[README|🏠HOME]]
-
 # 🌲 Tree Depth First Search
 
 ## Overview [[README|🏠]]
@@ -471,5 +469,3 @@ This pattern is fundamental for tree and graph problems requiring path analysis,
 - 🔧 **Implementation Choice:** Choose recursion for simplicity, iteration for deep trees or stack constraints
 - ⚡ **Performance:** O(n) time with O(h) space where h is tree height, varying significantly with tree balance
 - 🎯 **Edge Cases:** Handle null trees, single nodes, negative values, and ensure proper base cases in recursion
-
----

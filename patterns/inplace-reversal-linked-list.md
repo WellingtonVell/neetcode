@@ -13,8 +13,6 @@ title: In-place Reversal of Linked List
 description: Reverse linked lists or portions of linked lists efficiently using iterative pointer manipulation
 ---
 
-[[README|🏠HOME]]
-
 # 🔄 In-place Reversal of Linked List
 
 ## Overview [[README|🏠]]
@@ -507,5 +505,3 @@ This pattern is fundamental for linked list problems requiring structural modifi
 - 🔧 **Implementation Choice:** Master three-pointer technique and use dummy nodes for complex scenarios
 - ⚡ **Performance:** Achieves O(n) time with O(1) space through careful pointer manipulation
 - 🎯 **Edge Cases:** Always handle null lists, single nodes, and ensure proper reconnection of segments
-
----

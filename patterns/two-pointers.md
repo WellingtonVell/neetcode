@@ -13,8 +13,6 @@ title: Two Pointers
 description: Uses two pointers to traverse data structures from different positions or directions
 ---
 
-[[README|🏠HOME]]
-
 # 👆 Two Pointers
 
 ## Overview [[README|🏠]]
@@ -419,5 +417,3 @@ This pattern is fundamental for ordered data structures that require efficient t
 - 🔧 **Implementation Choice:** Decide between opposite-direction vs same-direction movement
 - ⚡ **Performance:** Achieves linear time with constant space for most problems
 - 🎯 **Edge Cases:** Always handle empty arrays, single elements, and boundary conditions
-
----

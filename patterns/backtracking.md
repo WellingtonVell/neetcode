@@ -686,5 +686,3 @@ This pattern is essential when you need to explore a solution space exhaustively
 - 🔧 **Implementation Choice:** Master choose-explore-unchoose; invest in efficient constraint checking for pruning
 - ⚡ **Performance:** Exponential complexity is unavoidable, but good pruning can make problems tractable
 - 🎯 **Edge Cases:** Ensure proper state restoration and handle empty inputs, no solutions, and constraint violations
-
----

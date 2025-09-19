@@ -13,8 +13,6 @@ title: Graph Algorithms
 description: Master graph traversal, topological sorting, cycle detection, and dependency resolution in directed and undirected graphs
 ---
 
-[[README|🏠HOME]]
-
 # 🕸️ Graph Algorithms
 
 ## Overview [[README|🏠]]
@@ -814,5 +812,3 @@ This pattern is essential for modeling relationships, dependencies, and hierarch
 - 🔧 **Implementation Choice:** Kahn's algorithm for BFS approach, DFS for recursion-based solutions with cycle detection
 - ⚡ **Performance:** O(V + E) complexity for both time and space is optimal for most graph algorithms
 - 🎯 **Edge Cases:** Always check for cycles in directed graphs; handle disconnected components and invalid inputs
-
----

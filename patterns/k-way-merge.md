@@ -13,8 +13,6 @@ title: K-way Merge
 description: Efficiently merge K sorted data structures using heaps to maintain order and find optimal solutions
 ---
 
-[[README|🏠HOME]]
-
 # 🌊 K-way Merge
 
 ## Overview [[README|🏠]]
@@ -715,5 +713,3 @@ This pattern excels at maintaining order while processing multiple sorted inputs
 - 🔧 **Implementation Choice:** Heap-based coordination maintains global order while processing only necessary elements
 - ⚡ **Performance:** O(n log k) complexity is optimal for most K-way merge problems when k << n
 - 🎯 **Edge Cases:** Handle empty inputs, varying list lengths, and optimize heap size to maintain O(k) space
-
----

@@ -13,8 +13,6 @@ title: Fast & Slow Pointers
 description: Two pointers moving at different speeds to detect cycles, find middle elements, and solve linked list problems efficiently
 ---
 
-[[README|🏠HOME]]
-
 # 🐢 Fast & Slow Pointers
 
 ## Overview [[README|🏠]]
@@ -437,5 +435,3 @@ This pattern is fundamental for linked list problems that require detecting patt
 - 🔧 **Implementation Choice:** Always maintain proper null checking and consider using dummy nodes for edge cases
 - ⚡ **Performance:** Achieves O(n) time with O(1) space by clever pointer speed manipulation
 - 🎯 **Edge Cases:** Empty lists, single nodes, and proper fast pointer advancement are critical for correct implementation
-
----

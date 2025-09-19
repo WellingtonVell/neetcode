@@ -13,8 +13,6 @@ title: Tree Breadth First Search
 description: Traverse trees and graphs level by level using queues for systematic exploration
 ---
 
-[[README|🏠HOME]]
-
 # 🌳 Tree Breadth First Search
 
 ## Overview [[README|🏠]]
@@ -532,5 +530,3 @@ This pattern is fundamental for tree and graph problems requiring level-wise pro
 - 🔧 **Implementation Choice:** Always capture queue size before processing each level to maintain level boundaries
 - ⚡ **Performance:** O(n) time with O(w) space where w is maximum tree width, not height
 - 🎯 **Edge Cases:** Handle empty trees, maintain proper level boundaries, and be aware of memory usage with wide trees
-
----

@@ -13,8 +13,6 @@ title: Subsets
 description: Generate all possible subsets, permutations, and combinations using recursive backtracking
 ---
 
-[[README|🏠HOME]]
-
 # 🌀 Subsets
 
 ## Overview [[README|🏠]]
@@ -507,5 +505,3 @@ This pattern is fundamental for combinatorial problems requiring exhaustive enum
 - 🔧 **Implementation Choice:** Choose start index for subsets/combinations, used array for permutations
 - ⚡ **Performance:** Exponential time/space complexity limits practical input sizes to small/medium ranges
 - 🎯 **Edge Cases:** Handle empty inputs, duplicates, and memory constraints; use pruning for optimization
-
----
